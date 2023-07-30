@@ -33,17 +33,18 @@ var APP_DATA = {
                 "target": "1-udenar_2"
             }],
             "infoHotspots": [{
-                    "imagen": "<img src='img/adminempresas.png' id='imgArquitectura'>",
                     "yaw": -0.4630409400119717,
                     "pitch": 0.1903530246810874,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "img3",
+                    "texto": "ADMINISTRACIÓN DE EMPRESAS"
                 },
                 {
                     "yaw": 0.4280508766354867,
                     "pitch": 0.17927346803086763,
                     "title": "Instrucciones",
-                    "text": "Text"
+                    "text": ""
                 }
             ]
         },

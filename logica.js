@@ -8,6 +8,16 @@ window.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+function Visible(idimg) {
+    document.getElementById(idimg).classList.remove("text-programa-no-visible");
+    document.getElementById(idimg).classList.add("text-programa-visible");
+}
+
+function noVisible(idimg) {
+    document.getElementById(idimg).classList.remove("text-programa-visible");
+    document.getElementById(idimg).classList.add("text-programa-no-visible");
+}
+
 function setDataModal(idimg, text) {
     if (idimg == "<img src='img/adminempresas.png' id='imgArquitectura'>") {
         document.getElementById('exampleModalLabel').innerHTML = "";
