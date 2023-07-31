@@ -338,7 +338,7 @@ var APP_DATA = {
                     "yaw": -0.45561827299068014,
                     "pitch": -0.06112132053418051,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfaciainformatica",
                     "texto": "LICENCIATURA EN INFORMATICA"
                 },
@@ -346,7 +346,7 @@ var APP_DATA = {
                     "yaw": 0.2731610959231183,
                     "pitch": -0.05588700836342042,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfaciafisica",
                     "texto": "FISICA"
                 },

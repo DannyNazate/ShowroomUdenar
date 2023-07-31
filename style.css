@@ -28,6 +28,9 @@
     color: #fff;
 }
 
+
+/*COLOCAR ICONOS A STANDS*/
+
 #img3 {
     background-image: url(img/iconomisionyvision.png);
 }
@@ -44,6 +47,9 @@
     background-image: url(img/fisica.png);
 }
 
+
+/*MODIFICAR TAMAÑO DE ICONO/BOTON*/
+
 .btn-link {
     position: fixed;
     width: 95px;
@@ -51,6 +57,60 @@
     padding: 0px;
     margin: 0px;
     background: blue;
+}
+
+
+/*TABLA DE PLAN DE ESTUDIOS*/
+
+#cabeceratabla {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#iconotabla {
+    width: 10%;
+}
+
+#cuerpotabla {
+    font-size: 15px;
+}
+
+#imagen-bienvenida {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+
+
+/*CONFIGURAR CARRUSEL*/
+
+.carousel-inner {
+    display: flex;
+    padding-right: 76px;
+    padding-left: 76px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+button.carousel-control-next,
+button.carousel-control-prev {
+    position: flex;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
 }
 
 html,
@@ -837,4 +897,142 @@ body.view-control-buttons .viewControlButton {
 
 .viewControlButton-6 {
     margin-left: 105px;
+}
+
+
+/*AJUSTES TABLA DE PLAN DE ESTUDIOS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: calc(1em + 1vw);
+}
+
+body {
+    background: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.lbl-menu {
+    background: rgb(37, 182, 76);
+    align-content: center;
+    text-align: center;
+}
+
+.lbl-menu label {
+    display: inline-block;
+    padding: 13px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.lbl-menu label:hover {
+    background: #28435d;
+}
+
+.content {
+    position: relative;
+    margin-bottom: 332px;
+}
+
+.content div {
+    position: absolute;
+    line-height: 1.3;
+    transition: all 600ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 1px;
+    background: #fff;
+    padding-bottom: 1px;
+}
+
+#radio1,
+#radio2,
+#radio3,
+#radio4,
+#radio5,
+#radio6,
+#radio7,
+#radio8,
+#radio9,
+#radio10,
+#radio11 {
+    display: none;
+}
+
+#radio1:checked~.tab1,
+#radio2:checked~.tab2,
+#radio3:checked~.tab3,
+#radio4:checked~.tab4,
+#radio5:checked~.tab5,
+#radio6:checked~.tab6,
+#radio7:checked~.tab7,
+#radio8:checked~.tab8,
+#radio9:checked~.tab9,
+#radio10:checked~.tab10,
+#radio11:checked~.tab11 {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.content div:after {
+    position: absolute;
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 7px solid #fff;
+    bottom: 100%;
+    left: 13px;
+}
+
+.content .tab2:after {
+    left: 48px;
+}
+
+.content .tab3:after {
+    left: 90px;
+}
+
+.content .tab4:after {
+    left: 135px;
+}
+
+.content .tab5:after {
+    left: 176px;
+}
+
+.content .tab6:after {
+    left: 219px;
+}
+
+.content .tab7:after {
+    left: 266px;
+}
+
+.content .tab8:after {
+    left: 319px;
+}
+
+.content .tab9:after {
+    left: 366px;
+}
+
+.content .tab10:after {
+    left: 405px;
+}
+
+.content .tab11:after {
+    left: 520px;
 }
