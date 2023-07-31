@@ -348,6 +348,7 @@ var APP_DATA = {
                     "title": "Title",
                     "text": "Text",
                     "id": "imgfaciafisica",
+                    "texto": "FISICA"
                 },
                 {
                     "yaw": 0.04296029222785691,
