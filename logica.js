@@ -19,7 +19,7 @@ function noVisible(idimg) {
 }
 
 function setDataModal(idimg, text) {
-    if (idimg == "<img src='img/adminempresas.png' id='imgArquitectura'>") {
+    if (idimg == 'imgfaciainformatica') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
         ${text}

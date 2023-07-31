@@ -294,11 +294,11 @@
 <button 
   type="button"     
   id="${hotspot.id}" 
-  class="btn btn-link" data-bs-toggle="modal btn-admin"
+  class="btn btn-link" data-bs-toggle="modal"
   data-bs-target="#exampleModal"
   onmouseover="Visible('text-${hotspot.texto}')" 
   onmouseout="noVisible('text-${hotspot.texto}')"
-  onclick="setDataModal('${hotspot.id}', '${hotspot.text}')">  
+  onclick="setDataModal(id, '${hotspot.text}')">  
 </button>
 `
         return wrapper;

@@ -283,7 +283,9 @@ var APP_DATA = {
                     "yaw": -0.4754933923792244,
                     "pitch": 0.07042871734662981,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "Text",
+                    "id": "imgfacea1",
+                    "texto": "ADMINISTRACION DE EMPRESAS"
                 },
                 {
                     "yaw": 0.19448527013041073,
@@ -336,13 +338,16 @@ var APP_DATA = {
                     "yaw": -0.45561827299068014,
                     "pitch": -0.06112132053418051,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "Text",
+                    "id": "imgfaciainformatica",
+                    "texto": "LICENCIATURA EN INFORMATICA"
                 },
                 {
                     "yaw": 0.2731610959231183,
                     "pitch": -0.05588700836342042,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "Text",
+                    "id": "imgfaciafisica",
                 },
                 {
                     "yaw": 0.04296029222785691,

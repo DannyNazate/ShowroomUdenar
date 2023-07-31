@@ -32,10 +32,22 @@
     background-image: url(img/iconomisionyvision.png);
 }
 
+#imgfacea1 {
+    background-image: url(img/administracionempresas.png);
+}
+
+#imgfaciainformatica {
+    background-image: url(img/informatica.png);
+}
+
+#imgfaciafisica {
+    background-image: url(img/fisica.png);
+}
+
 .btn-link {
     position: fixed;
-    width: 80px;
-    height: 80px;
+    width: 95px;
+    height: 95px;
     padding: 0px;
     margin: 0px;
     background: blue;
