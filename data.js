@@ -283,8 +283,8 @@ var APP_DATA = {
                     "yaw": -0.4754933923792244,
                     "pitch": 0.07042871734662981,
                     "title": "Title",
-                    "text": "Text",
-                    "id": "imgfacea1",
+                    "text": "",
+                    "id": "imgfaceadministracionempresas",
                     "texto": "ADMINISTRACION DE EMPRESAS"
                 },
                 {
@@ -501,13 +501,17 @@ var APP_DATA = {
                     "yaw": -0.10272980747447846,
                     "pitch": 0.2435299550294765,
                     "title": "Arquitectura",
-                    "text": "Text"
+                    "text": "Text",
+                    "id": "imgfacartesarquitectura",
+                    "texto": "ARQUITECTURA"
                 },
                 {
                     "yaw": -0.47610891578772474,
                     "pitch": 0.4292317600872444,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "Text",
+                    "id": "imgfacartesmusica",
+                    "texto": "LICENCIATURA EN MUSICA"
                 },
                 {
                     "yaw": 0.19768104359252092,
@@ -554,7 +558,9 @@ var APP_DATA = {
                     "yaw": -0.261063541182013,
                     "pitch": -0.21800330501115006,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "Text",
+                    "id": "imgfacsaludmedicina",
+                    "texto": "MEDICINA"
                 },
                 {
                     "yaw": -0.24743390491962458,

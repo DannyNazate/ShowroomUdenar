@@ -35,12 +35,25 @@
     background-image: url(img/iconomisionyvision.png);
 }
 
-#imgfacea1 {
+#imgfaceadministracionempresas {
     background-image: url(img/administracionempresas.png);
+}
+
+#imgfacartesarquitectura {
+    background-image: url(img/arquitectura.png);
 }
 
 #imgfaciainformatica {
     background-image: url(img/informatica.png);
+}
+
+#imgfacartesmusica {
+    background-image: url(img/musica.png);
+}
+
+#imgfacsaludmedicina {
+    background-image: url(img/medicina.png);
+    filter: brightness(50%);
 }
 
 #imgfaciafisica {
@@ -52,11 +65,10 @@
 
 .btn-link {
     position: fixed;
-    width: 95px;
-    height: 95px;
+    width: 92px;
+    height: 92px;
     padding: 0px;
     margin: 0px;
-    background: blue;
 }
 
 
@@ -141,6 +153,11 @@ a:visited {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    /*filter: brightness(1);*/
+}
+
+.scenes.sceneName.Udenar_1 {
+    filter: brightness(0);
 }
 
 #titleBar {
