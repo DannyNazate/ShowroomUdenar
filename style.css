@@ -68,13 +68,18 @@
 /*TABLA DE PLAN DE ESTUDIOS*/
 
 #cabeceratabla {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
 
+#titulo-plan-estudios {
+    text-align: center;
+    padding-top: 0px;
+}
+
 #iconotabla {
-    width: 10%;
+    width: 8%;
 }
 
 #cuerpotabla {
@@ -147,10 +152,6 @@ a:visited {
     height: 100%;
     overflow: hidden;
     /*filter: brightness(1);*/
-}
-
-.scenes.sceneName.Udenar_1 {
-    filter: brightness(0);
 }
 
 #titleBar {
@@ -964,6 +965,8 @@ body {
     padding: 1px;
     background: #fff;
     padding-bottom: 1px;
+    table-layout: auto;
+    width: 100%;
 }
 
 #radio1,
@@ -1004,45 +1007,45 @@ body {
     border-top: 5px solid transparent;
     border-bottom: 7px solid #fff;
     bottom: 100%;
-    left: 13px;
-}
-
-.content .tab2:after {
-    left: 48px;
-}
-
-.content .tab3:after {
-    left: 90px;
-}
-
-.content .tab4:after {
-    left: 135px;
-}
-
-.content .tab5:after {
     left: 176px;
 }
 
+.content .tab2:after {
+    left: 213px;
+}
+
+.content .tab3:after {
+    left: 253px;
+}
+
+.content .tab4:after {
+    left: 298px;
+}
+
+.content .tab5:after {
+    left: 340px;
+}
+
 .content .tab6:after {
-    left: 219px;
+    left: 383px;
 }
 
 .content .tab7:after {
-    left: 266px;
+    left: 430px;
 }
 
 .content .tab8:after {
-    left: 319px;
+    left: 483px;
 }
 
 .content .tab9:after {
-    left: 366px;
+    left: 530px;
 }
 
 .content .tab10:after {
-    left: 405px;
+    left: 571px;
 }
 
 .content .tab11:after {
-    left: 520px;
+    left: 675px;
 }

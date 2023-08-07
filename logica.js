@@ -42,7 +42,7 @@ function setDataModal(idimg, text) {
                     <table class="table table-sm" id="titulo">
                         <thead id="cabeceratabla">
                             <tr>
-                                <th scope="col"><h2>Plan de estudios</h2></th>
+                                <th scope="col" id="titulo-plan-estudios"><h1>Plan de estudios</h2></th>
                                 <th scope="col" id="iconotabla"><img src="img/programa.png" class="d-block w-100" alt="..."></th>
                             </tr>
                         </thead>
@@ -201,63 +201,60 @@ function setDataModal(idimg, text) {
           <!-- SEMESTRE 4 -->
           <input type="radio" name="radio" id="radio4">
           <div class="tab4">
-                <table class="table table-sm">
-                <thead id="cabeceratabla">
-                    <tr>
-                        <th scope="col">ASIGNATURAS</th>
-                        <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                        <th scope="col">HORAS SEMANALES
-                        TEORÍA/PRÁCTICA</th>
-                    </tr>
-                </thead>
-                <tbody id="cuerpotabla">
-                    <tr>
-                        <th scope="row">Taller de Proyecto Espacial Contexto Barrio</th>
-                        <td align="center">6</td>
-                        <td align="center">6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Taller de Materialización Tecnológica IV</th>
-                        <td align="center">3</td>
-                        <td align="center">3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Teoría y Crítica de la Arquitectura y la Ciudad II</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Taller de Ideación y Comunicación IV</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Taller de Diseño Urbano II</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">2</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Asignatura Electiva Disciplinar (una de 5 opciones)</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">2</td>
+            <table class="table table-sm">
+              <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS ACADÉMICOS</th>
+                    <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
                 </tr>
+              </thead>
+                <tbody id="cuerpotabla">
+                <tr>
+                            <th scope="row">Taller de Proyecto Espacial Contexto Barrio</th>
+                            <td align="center">6</td>
+                            <td align="center">6</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taller de Materialización Tecnológica IV</th>
+                            <td align="center">3</td>
+                            <td align="center">3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Teoría y Crítica de la Arquitectura y la Ciudad II</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taller de Ideación y Comunicación IV</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taller de Diseño Urbano II</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Asignatura Electiva Disciplinar (una de 5 opciones)</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>                        
                 </tbody>
                 </table>
           </div>
 
-
-          <!-- SEMESTRE 4 -->
+          <!-- SEMESTRE 5 -->
           <input type="radio" name="radio" id="radio5">
           <div class="tab5">
-                <table class="table table-sm">
-                <thead id="cabeceratabla">
-                    <tr>
+            <table class="table table-sm">
+              <thead id="cabeceratabla">
+                <tr>
                     <th scope="col">ASIGNATURAS</th>
                     <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                    <th scope="col">HORAS SEMANALES
-                    TEORÍA/PRÁCTICA</th>
-                    </tr>
-                </thead>
+                    <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
+                </tr>
+              </thead>
                 <tbody id="cuerpotabla">
                     <tr>
                         <th scope="row">Taller de Proyecto Sector: Vivienda/Equipamiento/Diseño Urbano (una de 3 opciones)</th>
@@ -270,14 +267,14 @@ function setDataModal(idimg, text) {
                         <td align="center">2</td>
                     </tr>
                     <tr>
-                    <th scope="row">Forma y Espacio de la Arquitectura y la Ciudad</th>
-                    <td colspan="1" align="center">1</td>
-                    <td align="center">2</td>
+                        <th scope="row">Forma y Espacio de la Arquitectura y la Ciudad</th>
+                        <td colspan="1" align="center">1</td>
+                        <td align="center">2</td>
                     </tr>
                     <tr>
-                    <th scope="row">Derecho a la Ciudad (Teórico-Urbano, Cursa Quinto o Séptimo)</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">2</td>
+                        <th scope="row">Derecho a la Ciudad (Teórico-Urbano, Cursa Quinto o Séptimo)</th>
+                        <td colspan="1" align="center">2</td>
+                        <td align="center">2</td>
                     </tr>
                     <tr>
                         <th scope="row">Asignatura Electiva Disciplinar (una de 16 opciones)</th>
