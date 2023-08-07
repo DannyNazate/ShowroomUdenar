@@ -36,29 +36,22 @@
 }
 
 #imgfaceadministracionempresas {
-    background-image: url(img/administracionempresas.png);
+    background-image: url(img/logos/administracionempresas.png);
 }
 
 #imgfacartesarquitectura {
-    background-image: url(img/arquitectura.png);
+    background-image: url(img/logos/arquitectura.png);
 }
 
-#imgfaciainformatica {
-    background-image: url(img/informatica.png);
-}
+#imgfaciainformatica {}
 
 #imgfacartesmusica {
-    background-image: url(img/musica.png);
+    background-image: url(img/logos/musica.png);
 }
 
-#imgfacsaludmedicina {
-    background-image: url(img/medicina.png);
-    filter: brightness(50%);
-}
+#imgfacsaludmedicina {}
 
-#imgfaciafisica {
-    background-image: url(img/fisica.png);
-}
+#imgfaciafisica {}
 
 
 /*MODIFICAR TAMAÑO DE ICONO/BOTON*/
