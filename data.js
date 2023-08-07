@@ -501,7 +501,7 @@ var APP_DATA = {
                     "yaw": -0.10272980747447846,
                     "pitch": 0.2435299550294765,
                     "title": "Arquitectura",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfacartesarquitectura",
                     "texto": "ARQUITECTURA"
                 },
