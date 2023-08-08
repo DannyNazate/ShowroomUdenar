@@ -19,7 +19,7 @@ function noVisible(idimg) {
 }
 
 function setDataModal(idimg, text) {
-    if (idimg == 'imgfaciainformatica') {
+    if (idimg == 'imgfacartesarquitectura') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
         ${text}
@@ -42,7 +42,7 @@ function setDataModal(idimg, text) {
                     <table class="table table-sm" id="titulo">
                         <thead id="cabeceratabla">
                             <tr>
-                                <th scope="col"><h2>Plan de estudios</h2></th>
+                                <th scope="col" id="titulo-plan-estudios"><h1>Plan de estudios</h2></th>
                                 <th scope="col" id="iconotabla"><img src="img/programa.png" class="d-block w-100" alt="..."></th>
                             </tr>
                         </thead>
@@ -62,6 +62,7 @@ function setDataModal(idimg, text) {
           <label for="radio11">Requisitos de Grado</label>
       </div>
       
+      <!-- SEMESTRE 1 -->
       <div class="content">         
           <input type="radio" name="radio" id="radio1" checked >
           <div class="tab1">
@@ -103,6 +104,8 @@ function setDataModal(idimg, text) {
                     </table>
                 
         </div>
+
+        <!-- SEMESTRE 2 -->
           <input type="radio" name="radio" id="radio2">
           <div class="tab2">
             <table class="table table-sm">
@@ -143,6 +146,7 @@ function setDataModal(idimg, text) {
             </table>
           </div>
           
+          <!-- SEMESTRE 3 -->
           <input type="radio" name="radio" id="radio3">
           <div class="tab3">
                 <table class="table table-sm">
@@ -194,62 +198,63 @@ function setDataModal(idimg, text) {
                 </table>
           </div>
           
+          <!-- SEMESTRE 4 -->
           <input type="radio" name="radio" id="radio4">
           <div class="tab4">
-                <table class="table table-sm">
-                <thead id="cabeceratabla">
-                    <tr>
-                        <th scope="col">ASIGNATURAS</th>
-                        <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                        <th scope="col">HORAS SEMANALES
-                        TEORÍA/PRÁCTICA</th>
-                    </tr>
-                </thead>
-                <tbody id="cuerpotabla">
-                    <tr>
-                        <th scope="row">Taller de Proyecto Espacial Contexto Barrio</th>
-                        <td align="center">6</td>
-                        <td align="center">6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Taller de Materialización Tecnológica IV</th>
-                        <td align="center">3</td>
-                        <td align="center">3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Teoría y Crítica de la Arquitectura y la Ciudad II</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Taller de Ideación y Comunicación IV</th>
-                        <td colspan="1" align="center">3</td>
-                        <td align="center">3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Taller de Diseño Urbano II</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">2</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Asignatura Electiva Disciplinar (una de 5 opciones)</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">2</td>
+            <table class="table table-sm">
+              <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS ACADÉMICOS</th>
+                    <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
                 </tr>
+              </thead>
+                <tbody id="cuerpotabla">
+                <tr>
+                            <th scope="row">Taller de Proyecto Espacial Contexto Barrio</th>
+                            <td align="center">6</td>
+                            <td align="center">6</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taller de Materialización Tecnológica IV</th>
+                            <td align="center">3</td>
+                            <td align="center">3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Teoría y Crítica de la Arquitectura y la Ciudad II</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taller de Ideación y Comunicación IV</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taller de Diseño Urbano II</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Asignatura Electiva Disciplinar (una de 5 opciones)</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2</td>
+                        </tr>                        
                 </tbody>
                 </table>
           </div>
+
+          <!-- SEMESTRE 5 -->
           <input type="radio" name="radio" id="radio5">
           <div class="tab5">
-                <table class="table table-sm">
-                <thead id="cabeceratabla">
-                    <tr>
+            <table class="table table-sm">
+              <thead id="cabeceratabla">
+                <tr>
                     <th scope="col">ASIGNATURAS</th>
                     <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                    <th scope="col">HORAS SEMANALES
-                    TEORÍA/PRÁCTICA</th>
-                    </tr>
-                </thead>
+                    <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
+                </tr>
+              </thead>
                 <tbody id="cuerpotabla">
                     <tr>
                         <th scope="row">Taller de Proyecto Sector: Vivienda/Equipamiento/Diseño Urbano (una de 3 opciones)</th>
@@ -258,18 +263,18 @@ function setDataModal(idimg, text) {
                     </tr>
                     <tr>
                         <th scope="row">Taller de Materialización: Urbana I/Arquitectónica I (una de 2 opciones)</th>
-                        <td align="center">3</td>
-                        <td align="center">3</td>
+                        <td align="center">2</td>
+                        <td align="center">2</td>
                     </tr>
                     <tr>
-                    <th scope="row">Forma y Espacio de la Arquitectura y la Ciudad</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">2</td>
+                        <th scope="row">Forma y Espacio de la Arquitectura y la Ciudad</th>
+                        <td colspan="1" align="center">1</td>
+                        <td align="center">2</td>
                     </tr>
                     <tr>
-                    <th scope="row">Derecho a la Ciudad (Teórico-Urbano, Cursa Quinto o Séptimo)</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
+                        <th scope="row">Derecho a la Ciudad (Teórico-Urbano, Cursa Quinto o Séptimo)</th>
+                        <td colspan="1" align="center">2</td>
+                        <td align="center">2</td>
                     </tr>
                     <tr>
                         <th scope="row">Asignatura Electiva Disciplinar (una de 16 opciones)</th>
@@ -284,6 +289,8 @@ function setDataModal(idimg, text) {
                 </tbody>
                 </table>
           </div>
+
+          <!-- SEMESTRE 6 -->
           <input type="radio" name="radio" id="radio6">
           <div class="tab6">
                 <table class="table table-sm">
@@ -303,8 +310,8 @@ function setDataModal(idimg, text) {
                         </tr>
                         <tr>
                             <th scope="row">Taller de Materialización: Urbana II/Arquitectónica II (una de 2 opciones)</th>
-                            <td align="center">3</td>
-                            <td align="center">3</td>
+                            <td align="center">2</td>
+                            <td align="center">2</td>
                         </tr>
                         <tr>
                             <th scope="row">Arquitectura y Ciudad en Periferia</th>
@@ -329,6 +336,9 @@ function setDataModal(idimg, text) {
                     </tbody>
                     </table>
           </div>
+
+
+          <!-- SEMESTRE 7 -->
           <input type="radio" name="radio" id="radio7">
           <div class="tab7">
                 <table class="table table-sm">
@@ -374,6 +384,8 @@ function setDataModal(idimg, text) {
                 </tbody>
                 </table>
           </div>
+
+          <!-- SEMESTRE 8 -->
           <input type="radio" name="radio" id="radio8">
           <div class="tab8">
                 <table class="table table-sm">
@@ -403,8 +415,8 @@ function setDataModal(idimg, text) {
                     </tr>
                     <tr>
                         <th scope="row">Ciudad Intermedia y Periferia (Teórico-Urbano. Cursa sexto u octavo)</th>
-                        <td align="center" colspan="1">3</td>
-                        <td align="center">3</td>
+                        <td align="center" colspan="1">2</td>
+                        <td align="center">2</td>
                     </tr>
                     <tr>
                         <th scope="row">Asignatura Electiva Disciplinar (dos de 14 opciones)</th>
@@ -419,6 +431,8 @@ function setDataModal(idimg, text) {
                 </tbody>
                 </table>
           </div>
+
+          <!-- SEMESTRE 9 -->
           <input type="radio" name="radio" id="radio9">
           <div class="tab9">
                 <table class="table table-sm">
@@ -439,6 +453,9 @@ function setDataModal(idimg, text) {
                 </tbody>
                 </table>
           </div>
+
+
+          <!-- SEMESTRE 10 -->
           <input type="radio" name="radio" id="radio10">
           <div class="tab10">
             <table class="table table-sm">
@@ -459,27 +476,29 @@ function setDataModal(idimg, text) {
             </tbody>
             </table>
           </div>
+
+
+          <!-- REQUISITOS DE GRADO -->
           <input type="radio" name="radio" id="radio11">
           <div class="tab11">
                 <table class="table table-sm">
                 <thead id="cabeceratabla">
-                    <tr>
-                        <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                    </tr>
+                   
                 </thead>
                 <tbody id="cuerpotabla">
-                    <th scope="row" align="left">Cumplimiento total de número de créditos del plan de estudios
-                    Eficiencia en inglés (dos niveles).
-                    Trabajo de grado.
+                    <th scope="row" align="left">
+                    <tr>Cumplimiento total de número de créditos del plan de estudios</tr> <br>
+                    <tr>Eficiencia en inglés (dos niveles).</tr>
+                    <tr>Trabajo de grado.</tr><br>
                     Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</th>
-                    
-                    <tr>Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</tr>
-                    <tr>Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</tr>
-                    <tr>Formación Humanística (Formación ciudadana) IHS 2  Créditos 2</tr>
-                    <tr>Formación Humanística (Formación en problemáticas de contexto) IHS 2  Créditos 2</tr>
-                    <tr>Competencias básicas (Lectura y producción de textos I) IHS 2  Créditos 2</tr>
-                    <tr>Competencias básicas (Lectura y producción de textos II) IHS 2  Créditos 2</tr>
-                    <tr>Competencias básicas (Lenguaje y herramientas informáticas) IHS 4  Créditos 2</tr>
+                
+                    <li>Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</li>
+                    <li>Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</li>
+                    <li>Formación Humanística (Formación ciudadana) IHS 2  Créditos 2</li>
+                    <li>Formación Humanística (Formación en problemáticas de contexto) IHS 2  Créditos 2</li>
+                    <li>Competencias básicas (Lectura y producción de textos I) IHS 2  Créditos 2</li>
+                    <li>Competencias básicas (Lectura y producción de textos II) IHS 2  Créditos 2</li>            
+                    <li>Competencias básicas (Lenguaje y herramientas informáticas) IHS 4  Créditos 2</li>
                 </tbody>
                 </table>
           </div>
