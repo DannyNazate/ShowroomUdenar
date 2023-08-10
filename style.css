@@ -39,15 +39,21 @@
     background-image: url(img/logos/administracionempresas.png);
 }
 
+#imgfaceacomercio {}
+
 #imgfacartesarquitectura {
     background-image: url(img/logos/arquitectura.png);
 }
 
-#imgfaciainformatica {}
+#imgfacartesgrafico {
+    background-image: url(img/logos/grafico.png);
+}
 
 #imgfacartesmusica {
     background-image: url(img/logos/musica.png);
 }
+
+#imgfaciainformatica {}
 
 #imgfacsaludmedicina {}
 
@@ -68,18 +74,26 @@
 /*TABLA DE PLAN DE ESTUDIOS*/
 
 #cabeceratabla {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
 
 #titulo-plan-estudios {
     text-align: center;
-    padding-top: 0px;
+}
+
+#titulosemestre {
+    text-align: left;
 }
 
 #iconotabla {
+    width: 7%;
+}
+
+#footer {
     width: 8%;
+    height: 8%;
 }
 
 #cuerpotabla {

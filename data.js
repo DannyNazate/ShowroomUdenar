@@ -38,7 +38,7 @@ var APP_DATA = {
                     "title": "Title",
                     "text": "",
                     "id": "img3",
-                    "texto": "ADMINISTRACIÓN DE EMPRESAS"
+                    "texto": " DE EMPRESAS"
                 },
                 {
                     "yaw": 0.4280508766354867,
@@ -291,7 +291,9 @@ var APP_DATA = {
                     "yaw": 0.19448527013041073,
                     "pitch": 0.07510002571061314,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfaceacomercio",
+                    "texto": "COMERCIO INTERNACIONAL"
                 },
                 {
                     "yaw": 0.011503212861441625,
@@ -509,7 +511,7 @@ var APP_DATA = {
                     "yaw": -0.47610891578772474,
                     "pitch": 0.4292317600872444,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfacartesmusica",
                     "texto": "LICENCIATURA EN MUSICA"
                 },
@@ -517,7 +519,9 @@ var APP_DATA = {
                     "yaw": 0.19768104359252092,
                     "pitch": 0.44281124609776157,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfacartesgrafico",
+                    "texto": "DISEÑO GRAFICO"
                 }
             ]
         },
