@@ -39,7 +39,9 @@
     background-image: url(img/logos/administracionempresas.png);
 }
 
-#imgfaceacomercio {}
+#imgfaceacomercio {
+    background-image: url(img/logos/comercio.png);
+}
 
 #imgfacartesarquitectura {
     background-image: url(img/logos/arquitectura.png);
