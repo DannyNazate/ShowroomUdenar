@@ -20,12 +20,26 @@
     visibility: hidden;
     background-color: rgba(58, 68, 84);
     color: #fff;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .text-programa-visible {
     visibility: visible;
     background-color: rgba(58, 68, 84);
     color: #fff;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 
@@ -55,21 +69,13 @@
     background-image: url(img/logos/musica.png);
 }
 
-#imgfaciainformatica {}
-
-#imgfacsaludmedicina {}
-
-#imgfaciafisica {}
-
 
 /*MODIFICAR TAMAÑO DE ICONO/BOTON*/
 
 .btn-link {
-    position: fixed;
+    position: relative;
     width: 92px;
     height: 92px;
-    padding: 0px;
-    margin: 0px;
 }
 
 

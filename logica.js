@@ -27,14 +27,15 @@ function setDataModal(idimg, text) {
     <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img src="img/perfil.png" class="d-block w-100" alt="...">
+            <img src="img/plantillas/facartes/arquitectura/arquitecturageneral.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/ARQUITECTURA.jpg" class="d-block w-100" alt="...">
+          <img src="img/plantillas/facartes/arquitectura/arquitecturaperfilgeneral.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-          </div>  
+            <img src="img/plantillas/facartes/arquitectura/arquitecturaperfilocupacional.jpg" class="d-block w-100" alt="...">
+          </div>
+           
 
       <div class="carousel-item" >                  
       <div class="container">
@@ -630,7 +631,15 @@ function setDataModal(idimg, text) {
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
   </div>
+
+         
   `
     }
 
@@ -646,14 +655,23 @@ function setDataModal(idimg, text) {
     <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img src="img/perfil.png" class="d-block w-100" alt="...">
+            <img src="img/plantillas/facartes/grafico/graficogeneral.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/ARQUITECTURA.jpg" class="d-block w-100" alt="...">
+            <img src="img/plantillas/facartes/grafico/graficoperfil1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-          </div>  
+            <img src="img/plantillas/facartes/grafico/graficoperfil2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/plantillas/facartes/grafico/graficoperfil3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/plantillas/facartes/grafico/graficoperfil4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/plantillas/facartes/grafico/graficoperfilaspirante.jpg" class="d-block w-100" alt="...">
+          </div> 
 
       <div class="carousel-item" >                  
       <div class="container">
@@ -1438,6 +1456,12 @@ function setDataModal(idimg, text) {
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
   </div>
   `
     }
@@ -1452,14 +1476,14 @@ function setDataModal(idimg, text) {
 <div class="carousel-inner">
 
       <div class="carousel-item active">
-        <img src="img/perfil.png" class="d-block w-100" alt="...">
+          <img src="img/plantillas/facartes/musica/musicageneral.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/ARQUITECTURA.jpg" class="d-block w-100" alt="...">
+        <img src="img/plantillas/facartes/musica/musicaperfilprofesional.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-      </div>  
+        <img src="img/plantillas/facartes/musica/musicaperfilciudadano.jpg" class="d-block w-100" alt="...">
+      </div>
 
   <div class="carousel-item" >                  
   <div class="container">
@@ -2135,6 +2159,12 @@ function setDataModal(idimg, text) {
   <span class="carousel-control-next-icon" aria-hidden="true"></span>
   <span class="visually-hidden">Next</span>
 </button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
 </div>
 `
     }
@@ -2150,14 +2180,18 @@ ${text}
 <div class="carousel-inner">
 
   <div class="carousel-item active">
-    <img src="img/perfil.png" class="d-block w-100" alt="...">
+        <img src="img/plantillas/facea/administraciondeempresas/adminempresasgeneral.jpg" class="d-block w-100" alt="...">
   </div>
   <div class="carousel-item">
-    <img src="img/ARQUITECTURA.jpg" class="d-block w-100" alt="...">
+        <img src="img/plantillas/facea/administraciondeempresas/adminempresasperfilprofesional.jpg" class="d-block w-100" alt="...">
   </div>
   <div class="carousel-item">
-    <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-  </div>  
+    <img src="img/plantillas/facea/administraciondeempresas/adminempresasperfilhumanistico.jpg" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="img/plantillas/facea/administraciondeempresas/adminempresasperfilocupacional.jpg" class="d-block w-100" alt="...">
+  </div>
+   
 
 <div class="carousel-item" >                  
 <div class="container">
@@ -2784,6 +2818,12 @@ ${text}
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Next</span>
 </button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
 </div>
 `
     }
@@ -2799,14 +2839,15 @@ ${text}
 <div class="carousel-inner">
 
 <div class="carousel-item active">
-<img src="img/perfil.png" class="d-block w-100" alt="...">
+    <img src="img/plantillas/facea/comerciointernacional/comercioninternacionalgeneral.jpg" class="d-block w-100" alt="...">
 </div>
 <div class="carousel-item">
-<img src="img/ARQUITECTURA.jpg" class="d-block w-100" alt="...">
+    <img src="img/plantillas/facea/comerciointernacional/comerciointernacionalperfilprofesional.jpg" class="d-block w-100" alt="...">
 </div>
 <div class="carousel-item">
-<iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-</div>  
+    <img src="img/plantillas/facea/comerciointernacional/comerciointernacionalperfilocupacional.jpg" class="d-block w-100" alt="...">
+</div>
+
 
 <div class="carousel-item" >                  
 <div class="container">
@@ -3356,6 +3397,12 @@ ${text}
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Next</span>
 </button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }

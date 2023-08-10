@@ -511,7 +511,7 @@ var APP_DATA = {
                 },
                 {
                     "yaw": 0.09768104359252092,
-                    "pitch": 0.32981124609776157,
+                    "pitch": 0.32923176008776157,
                     "title": "Title",
                     "text": "",
                     "id": "imgfacartesmusica",
