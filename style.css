@@ -20,12 +20,26 @@
     visibility: hidden;
     background-color: rgba(58, 68, 84);
     color: #fff;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .text-programa-visible {
     visibility: visible;
     background-color: rgba(58, 68, 84);
     color: #fff;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 
@@ -36,67 +50,62 @@
 }
 
 #imgfaceadministracionempresas {
-    background-image: url(img/administracionempresas.png);
+    background-image: url(img/logos/administracionempresas.png);
+}
+
+#imgfaceacomercio {
+    background-image: url(img/logos/comercio.png);
 }
 
 #imgfacartesarquitectura {
-    background-image: url(img/arquitectura.png);
+    background-image: url(img/logos/arquitectura.png);
 }
 
-#imgfaciainformatica {
-    background-image: url(img/informatica.png);
+#imgfacartesgrafico {
+    background-image: url(img/logos/grafico.png);
 }
 
 #imgfacartesmusica {
-    background-image: url(img/musica.png);
+    background-image: url(img/logos/musica.png);
 }
-
-#imgfacsaludmedicina {
-    background-image: url(img/medicina1.png);
-    filter: brightness(50%);
-}
-
-#imgfaciafisica {
-    background-image: url(img/fisica.png);
-}
-#imgfacambiental {
-    background-image: url(img/ambiental.png);
-}
-#imgfacagronomica {
-    background-image: url(img/agricolas.png);
-}
-
-
 
 
 /*MODIFICAR TAMAÑO DE ICONO/BOTON*/
 
 .btn-link {
-    position: fixed;
+    position: relative;
     width: 92px;
     height: 92px;
-    padding: 0px;
-    margin: 0px;
 }
 
 
 /*TABLA DE PLAN DE ESTUDIOS*/
 
-
 #cabeceratabla {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
 
-#iconotabla {
-    width: 10%;
+#titulo-plan-estudios {
+    text-align: center;
 }
 
+#titulosemestre {
+    text-align: left;
+}
+
+#iconotabla {
+    width: 7%;
+}
+
+#footer {
+    width: 8%;
+    height: 8%;
+}
 
 #cuerpotabla {
     font-size: 15px;
-   
 }
 
 #imagen-bienvenida {
@@ -111,8 +120,8 @@
 
 .carousel-inner {
     display: flex;
-    padding-right: 76px;
-    padding-left: 76px;
+    padding-right: 88px;
+    padding-left: 88px;
     padding-top: 0px;
     padding-bottom: 10px;
 }
@@ -165,10 +174,6 @@ a:visited {
     height: 100%;
     overflow: hidden;
     /*filter: brightness(1);*/
-}
-
-.scenes.sceneName.Udenar_1 {
-    filter: brightness(0);
 }
 
 #titleBar {
@@ -983,6 +988,8 @@ body {
     padding: 1px;
     background: #fff;
     padding-bottom: 1px;
+    table-layout: auto;
+    width: 100%;
 }
 
 #radio1,
@@ -1023,46 +1030,45 @@ body {
     border-top: 5px solid transparent;
     border-bottom: 7px solid #fff;
     bottom: 100%;
-    left: 13px;
+    left: 156px;
 }
 
 .content .tab2:after {
-    left: 48px;
+    left: 192px;
 }
 
 .content .tab3:after {
-    left: 90px;
+    left: 234px;
 }
 
 .content .tab4:after {
-    left: 135px;
+    left: 277px;
 }
 
 .content .tab5:after {
-    left: 176px;
-}
-
-.content .tab6:after {
-    left: 219px;
-}
-
-.content .tab7:after {
-    left: 266px;
-}
-
-.content .tab8:after {
     left: 319px;
 }
 
+.content .tab6:after {
+    left: 363px;
+}
+
+.content .tab7:after {
+    left: 410px;
+}
+
+.content .tab8:after {
+    left: 460px;
+}
+
 .content .tab9:after {
-    left: 366px;
+    left: 509px;
 }
 
 .content .tab10:after {
-    left: 405px;
+    left: 550px;
 }
 
 .content .tab11:after {
-    left: 520px;
+    left: 660px;
 }
-

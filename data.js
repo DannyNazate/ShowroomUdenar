@@ -38,7 +38,7 @@ var APP_DATA = {
                     "title": "Title",
                     "text": "",
                     "id": "img3",
-                    "texto": "ADMINISTRACIÓN DE EMPRESAS"
+                    "texto": " DE EMPRESAS"
                 },
                 {
                     "yaw": 0.4280508766354867,
@@ -281,7 +281,7 @@ var APP_DATA = {
             }],
             "infoHotspots": [{
                     "yaw": -0.4754933923792244,
-                    "pitch": 0.07042871734662981,
+                    "pitch": -0.00012871734662981,
                     "title": "Title",
                     "text": "",
                     "id": "imgfaceadministracionempresas",
@@ -289,15 +289,11 @@ var APP_DATA = {
                 },
                 {
                     "yaw": 0.19448527013041073,
-                    "pitch": 0.07510002571061314,
+                    "pitch": -0.00010002571061314,
                     "title": "Title",
-                    "text": "Text"
-                },
-                {
-                    "yaw": 0.011503212861441625,
-                    "pitch": 0.30872564811885894,
-                    "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfaceacomercio",
+                    "texto": "COMERCIO INTERNACIONAL"
                 }
             ]
         },
@@ -344,7 +340,7 @@ var APP_DATA = {
                 },
                 {
                     "yaw": 0.2731610959231183,
-                    "pitch": 0.04058700836342042,
+                    "pitch": -0.05588700836342042,
                     "title": "Title",
                     "text": "",
                     "id": "imgfaciafisica",
@@ -392,29 +388,23 @@ var APP_DATA = {
                 "target": "3-pasillo_2"
             }],
             "infoHotspots": [{
-                    "yaw": 0.0041763959154845764,
+                    "yaw": -0.2936653621367835,
                     "pitch": 0.07263735625348033,
                     "title": "Title",
-                    "text": "",
-                    "id": "imgfacambiental",
-                    "texto": "Ingenieria Ambiental"
+                    "text": "Text"
                 },
                 {
-                    "yaw": -0.7743887923378421,
-                    "pitch": 0.07263735625348033,
+                    "yaw": -0.7543887923378421,
+                    "pitch": 0.39249500379658464,
                     "title": "Title",
-                    "text": "Text",
-                    "id": "imgfacagronomica",
-                    "texto": "Ingenieria Agronómica"
+                    "text": "Text"
                 },
-                /*{
+                {
                     "yaw": 0.0041763959154845764,
                     "pitch": 0.4242019633186658,
                     "title": "Title",
-                    "text": "Text",
-                    "id": "",
-                    "texto": ""
-                }*/
+                    "text": "Text"
+                }
             ]
         },
         {
@@ -504,26 +494,28 @@ var APP_DATA = {
                 "target": "4-pasillo_3"
             }],
             "infoHotspots": [{
-                    "yaw": -0.10272980747447846,
-                    "pitch": 0.2435299550294765,
+                    "yaw": -0.20272980747447846,
+                    "pitch": 0.0035299550294765,
                     "title": "Arquitectura",
-                    "text": "Text",
+                    "text": "",
+                    "id": "imgfacartesgrafico",
+                    "texto": "DISEÑO GRAFICO"
+                },
+                {
+                    "yaw": -0.47610891578772474,
+                    "pitch": 0.3292317600872444,
+                    "title": "Title",
+                    "text": "",
                     "id": "imgfacartesarquitectura",
                     "texto": "ARQUITECTURA"
                 },
                 {
-                    "yaw": -0.47610891578772474,
-                    "pitch": 0.4292317600872444,
+                    "yaw": 0.09768104359252092,
+                    "pitch": 0.32923176008776157,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfacartesmusica",
                     "texto": "LICENCIATURA EN MUSICA"
-                },
-                {
-                    "yaw": 0.19768104359252092,
-                    "pitch": 0.44281124609776157,
-                    "title": "Title",
-                    "text": "Text"
                 }
             ]
         },
