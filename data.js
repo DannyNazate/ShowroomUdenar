@@ -444,7 +444,10 @@ var APP_DATA = {
                     "yaw": 0.4989436923244792,
                     "pitch": 0.1743612343518457,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgingsistemas",
+                    "texto": "INGENIERÍA EN SISTEMAS"
+
                 },
                 {
                     "yaw": 0.20298899511782587,
@@ -556,7 +559,7 @@ var APP_DATA = {
                     "yaw": -0.261063541182013,
                     "pitch": -0.21800330501115006,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfacsaludmedicina",
                     "texto": "MEDICINA"
                 },
@@ -564,7 +567,9 @@ var APP_DATA = {
                     "yaw": -0.24743390491962458,
                     "pitch": 0.24812564892829947,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "Text",
+                    "id": "imgfacsaludpromsalud",
+                    "texto": "PROMOCIÓN DE LA SALUD"
                 }
             ]
         }
