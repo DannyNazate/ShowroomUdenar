@@ -607,7 +607,7 @@ function setDataModal(idimg, text) {
                     <tr>Cumplimiento total de número de créditos del plan de estudios</tr> <br>
                     <tr>Eficiencia en inglés (dos niveles).</tr>
                     <tr>Trabajo de grado.</tr><br>
-                    Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</th>
+                    <ul>Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</ul>
                 
                     <li>Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</li>
                     <li>Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</li>
@@ -1432,7 +1432,7 @@ function setDataModal(idimg, text) {
                     <li>Cumplimiento total de número de créditos del plan de estudios</li>
                     <li>Eficiencia en inglés (dos niveles).</li>
                     <li>Trabajo de grado.</li>
-                    Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</th>
+                    <ul>Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</ul>
                 
                     <li>Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</li>
                     <li>Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</li>
@@ -2136,14 +2136,14 @@ function setDataModal(idimg, text) {
             </thead>
             <tbody id="cuerpotabla">
                 <th scope="row" align="left">
-                <li>El estudiante realizara un trabajo final de grado, previamente escogida la modalidad de las cuatro que se ofrecen en el programa las cuales son:</li>
+                <ul>El estudiante realizara un trabajo final de grado, previamente escogida la modalidad de las cuatro que se ofrecen en el programa las cuales son:</ul>
                 
             
                 <li>1. Recital Creativo</li>
                 <li>2. Recital de instrumento principal</li>
                 <li>3. Monografía</li>
                 <li>4. Pasantía</li>
-                Para obtener el título profesional, el estudiante debe certificar un segundo idioma en nivel B1 de acuerdo al Marco Común Europeo de Referencia (MCER)
+                <li>Para obtener el título profesional, el estudiante debe certificar un segundo idioma en nivel B1 de acuerdo al Marco Común Europeo de Referencia (MCER)</li>
             </tbody>
             </table>
       </div>
@@ -2796,7 +2796,7 @@ ${text}
             <th scope="row" align="left">
             <li>Cumplimiento total de Número de créditos del plan de estudios</li>        
             <li>Presentación de cualquiera de las modalidades de grado aprobadas por la Facultad</li>
-            Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:
+            <ul>Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</ul>
             <li>Formación Humanística (Formación en humanismo)  2 Créditos</li>
             <li>Formación Humanística (Formación en cultura artística y cultura física) 2 Créditos</li>
             <li>Formación Humanística (Formación ciudadana) 2 Créditos</li>
@@ -3374,7 +3374,7 @@ ${text}
         <li>Cumplimiento total de Número de créditos del plan de estudios</li>        
         <li>Eficiencia en inglés</li>
         <li>Trabajo de grado</li>
-        Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:
+        <ul>Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</ul>
         <li>Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</li>
         <li>Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</li>
         <li>Formación Humanística (Formación ciudadana) IHS 2  Créditos 2</li>

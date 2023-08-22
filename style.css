@@ -120,8 +120,8 @@
 
 .carousel-inner {
     display: flex;
-    padding-right: 76px;
-    padding-left: 76px;
+    padding-right: 88px;
+    padding-left: 88px;
     padding-top: 0px;
     padding-bottom: 10px;
 }
@@ -952,6 +952,7 @@ body {
     max-width: 90%;
     margin: auto;
     margin-top: 0px;
+    overflow-x: auto;
 }
 
 .lbl-menu {
@@ -1033,45 +1034,45 @@ body {
     border-top: 5px solid transparent;
     border-bottom: 7px solid #fff;
     bottom: 100%;
-    left: 176px;
+    left: 156px;
 }
 
 .content .tab2:after {
-    left: 213px;
+    left: 192px;
 }
 
 .content .tab3:after {
-    left: 253px;
+    left: 234px;
 }
 
 .content .tab4:after {
-    left: 298px;
+    left: 277px;
 }
 
 .content .tab5:after {
-    left: 340px;
+    left: 319px;
 }
 
 .content .tab6:after {
-    left: 383px;
+    left: 363px;
 }
 
 .content .tab7:after {
-    left: 430px;
+    left: 410px;
 }
 
 .content .tab8:after {
-    left: 483px;
+    left: 460px;
 }
 
 .content .tab9:after {
-    left: 530px;
+    left: 509px;
 }
 
 .content .tab10:after {
-    left: 571px;
+    left: 550px;
 }
 
 .content .tab11:after {
-    left: 675px;
+    left: 660px;
 }
