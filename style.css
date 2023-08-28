@@ -69,6 +69,24 @@
     background-image: url(img/logos/musica.png);
 }
 
+#imgfacsaludmedicina {
+    background-image: url(img/logos/medicina.png);
+}
+
+#imgfacsaludpromsalud {
+    background-image: url(img/logos/promsalud.png);
+}
+
+#imgfacingsistemas {
+    background-image: url(img/logos/sistemaslogo.png);
+}
+
+#imgfacingelectronica {
+    background-image: url(img/logos/electronica.png);
+}
+#imgfacingcivil {
+    background-image: url(img/logos/civil.png);
+}
 
 /*MODIFICAR TAMAÑO DE ICONO/BOTON*/
 

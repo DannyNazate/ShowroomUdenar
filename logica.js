@@ -4151,9 +4151,507 @@ ${text}
 `
     }
 
+     /*############################################ SALUD #################################################*/
+
+     if(idimg == 'imgfacsaludpromsalud'){
+        document.getElementById('exampleModalLabel').innerHTML = "";
+        document.getElementById('bodymodal').innerHTML = `
+    ${text}
+<div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+          <img src="img/plantillas/facsalud/promsalud/promsaludgeneral.png" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/plantillas/facsalud/promsalud/promsaludocupacional.png" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+          <img src="img/plantillas/facsalud/promsalud/promsaludperfil.png" class="d-block w-100" alt="...">
+      </div>
+
+
+  <div class="carousel-item" >                  
+  <div class="container">
+  <div class="tab1" >
+                <table class="table table-sm" id="titulo">
+                    <thead id="cabeceratabla">
+                        <tr>
+                            <th scope="col" id="titulo-plan-estudios"><h1>Plan de estudios</h2></th>
+                            <th scope="col" id="iconotabla"><img src="img/programa.png" class="d-block w-100" alt="..."></th>
+                        </tr>
+                    </thead>
+                </table>
+  </div>
+  <div class="lbl-menu" >
+      <label for="radio1">I</label>
+      <label for="radio2">II</label>
+      <label for="radio3">III</label>
+      <label for="radio4">IV</label>
+      <label for="radio5">V</label>
+      <label for="radio6">VI</label>
+      <label for="radio12">Requisitos de Grado</label>
+  </div>
+
+  
+  <!-- SEMESTRE 1 -->
+  <div class="content"> 
+                        
+      <input type="radio" name="radio" id="radio1" checked >
+      <div class="tab1">
+                <table class="table table-sm">
+                    <thead  id="titulosemestre">
+                    <div scope="col">
+                                <tr>
+                                   <h4>Semestre 1</h4>
+                                </tr> 
+                    </div> 
+                    </thead>
+                <thead id="cabeceratabla">                                               
+                    <tr>
+                        <th scope="col">ASIGNATURAS</th>
+                        <th scope="col">CRÉDITOS</th>
+                        <th scope="col">IHS<br>TEORÍA PRÁCTICA</th>
+                    </tr>
+                </thead>
+                    <tbody id="cuerpotabla">
+                        <tr>
+                            <th scope="row">Proyecto Formativo I</th>
+                                <td align="center">3</td>
+                                <td align="center">2/3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Salud Pública y Promoción de la Salud I</th>
+                                <td align="center">1</td>
+                                <td align="center">2/0</td>
+                            </tr>
+                        <tr>
+                            <th scope="row">Biología</th>
+                                <td colspan="1" align="center">2</td>
+                                <td align="center">2/2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Psicología del Ciclo Vital</th>
+                                <td align="center" colspan="1">2</td>
+                                <td align="center">3/0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Morfofisiología</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">2/2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Antropología</th>
+                            <td colspan="1" align="center">2</td>
+                            <td align="center">3/0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ética</th>
+                            <td colspan="1" align="center">1</td>
+                            <td align="center">2/0</td>
+                        </tr>
+                        
+                    </tbody>                        
+                </table>
+                
+                <tr id="footer">
+                    <tr>
+                    <td colspan="1" ><h6>7 Materias</td>
+                    <td colspan="1" ><h6>13 Créditos</td>
+                </tr> 
+            
+    </div>
+
+    <!-- SEMESTRE 2 -->
+      <input type="radio" name="radio" id="radio2">
+      <div class="tab2">
+        <table class="table table-sm">
+            <thead  id="titulosemestre">
+                        <div scope="col">
+                                    <tr>
+                                    <h4>Semestre 2</h4>
+                                    </tr> 
+                        </div> 
+                        </thead>
+            <thead id="cabeceratabla">
+            <tr>
+                        <th scope="col" >ASIGNATURAS</th>
+                        <th scope="col">CRÉDITOS</th>
+                        <th scope="col">IHS</th>
+                        <th scope="col">PRE-REQUISITO</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpotabla">
+            <tr>
+                <th scope="row">Proyecto Formativo II</th>
+                <td align="center">2</td>
+                <td align="center">2/2</td>
+                <td align="center"></td>
+            </tr>
+            <tr>
+                <th scope="row">Salud Pública y Promoción de la Salud II</th>
+                <td align="center">2</td>
+                <td align="center">2/2</td>
+                <td align="center">Salud Pública y Promoción de la Salud I</td>
+            </tr>
+            <tr>
+                <th scope="row">Microbiología</th>
+                <td colspan="1"align="center">2</td>
+                <td align="center">2/2</td>
+                <td align="center">Biología</td>
+            </tr>
+            <tr>
+                <th scope="row">Sociología</th>
+                <td align="center"colspan="1" >2</td>
+                <td align="center">3/0</td>
+                <td align="center">Bioquímica I y Biología Molecular</td>
+            </tr>
+            <tr>
+                <th scope="row">Psicología de la Salud</th>
+                <td align="center" colspan="1">2</td>
+                <td align="center" >3/0</td>
+                <td align="center"></td>
+            </tr>
+            <tr>
+                <th scope="row">Comunidad, Familia y Salud</th>
+                <td align="center" colspan="1">2</td>
+                <td align="center" >2/2</td>
+                <td align="center"></td>
+            </tr>
+            <tr>
+                <th scope="row">Estadística</th>
+                <td align="center" colspan="1">2</td>
+                <td align="center" >2/2</td>
+                <td align="center"></td>
+            </tr>
+        </tbody>
+        </table>
+        <tr id="footer">
+                    <td colspan="1" ><h6>7 Materias</td>
+                    <td colspan="1" ><h6>14 Créditos</td>
+        </tr> 
+      </div>
+      
+<!-- SEMESTRE 3 -->
+      <input type="radio" name="radio" id="radio3">
+      <div class="tab3">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+            <div scope="col">
+                        <tr>
+                        <h4>Semestre 3</h4>
+                        </tr> 
+            </div> 
+            </thead>
+<thead id="cabeceratabla">
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Proyecto Formativo III</th>
+                    <td align="center">2</td>
+                    <td align="center">2/2</td>
+                    <td align="center">Proyecto Formativo II</td>
+                </tr>
+                <tr>
+                    <th scope="row">Salud Pública y Promoción de la Salud III</th>
+                    <td align="center">3</td>
+                    <td align="center">3/2</td>
+                    <td align="center">Salud Pública y Promoción de la Salud II</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sistemas de Información</th>
+                    <td colspan="1" align="center">2</td>
+                    <td align="center">2/2</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Sistema General de Seguridad Social en Salud</th>
+                    <td colspan="1" align="center">2</td>
+                    <td align="center">3/0</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Educación y Comunicación para la Salud I</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">3/2</td>
+                    <td align="center"></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Epidemiología</th>
+                    <td colspan="1" align="center">2</td>
+                    <td align="center">2/2</td>
+                    <td align="center"></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Electiva I</th>
+                    <td colspan="1" align="center">1</td>
+                    <td align="center">2/0</td>
+                    <td align="center">Historia de la Medicina</td>
+                </tr>
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>7 Materias</td>
+                <td colspan="1" ><h6>15 Créditos</td>
+            </tr> 
+      </div>
+      
+      <!-- SEMESTRE 4 -->
+      <input type="radio" name="radio" id="radio4">
+      <div class="tab4">
+        <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 4</h4>
+                        </tr> 
+                </div> 
+            </thead>
+        
+          <thead id="cabeceratabla">
+            <tr>
+                <th scope="col">ASIGNATURAS</th>
+                <th scope="col">CRÉDITOS</th>
+                <th scope="col">IHS</th>
+                <th scope="col">PRE-REQUISITO</th>
+            </tr>
+          </thead>
+            <tbody id="cuerpotabla">
+            <tr>
+                        <th scope="row">Proyecto Formativo IV</th>
+                        <td align="center">3</td>
+                        <td align="center">2/4</td>
+                        <td align="center">Proyecto Formativo III</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Salud Pública y Promoción de la Salud IV</th>
+                        <td align="center">3</td>
+                        <td align="center">3/2</td>
+                        <td align="center">Salud Pública y Promoción de la Salud III</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Educación y Comunicación para la Salud II</th>
+                        <td colspan="1" align="center">3</td>
+                        <td align="center">3/2</td>
+                        <td align="center">Educación y Comunicación para la Salud I</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Nutrición</th>
+                        <td colspan="1" align="center">2</td>
+                        <td align="center">3/0</td>
+                        <td align="center"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Ecología y Formación Ambiental</th>
+                        <td colspan="1" align="center">1</td>
+                        <td align="center">3/0</td>
+                        <td align="center"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Procesos Comunitarios</th>
+                        <td colspan="1" align="center">2</td>
+                        <td align="center">3/0</td>
+                        <td align="center"></td>
+                    </tr> 
+                    <tr>
+                        <th scope="row">Electiva II</th>
+                        <td colspan="1" align="center">1</td>
+                        <td align="center">2/0</td>
+                        <td align="center"></td>
+                    </tr>
+                                           
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>7 Materias</td>
+                <td colspan="1" ><h6>15 Créditos</td>
+            </tr> 
+      </div>
+
+      <!-- SEMESTRE 5 -->
+      <input type="radio" name="radio" id="radio5">
+      <div class="tab5">
+        <table class="table table-sm">
+        <thead  id="titulosemestre">
+            <div scope="col">
+                    <tr>
+                        <h4>Semestre 5</h4>
+                    </tr> 
+            </div> 
+        </thead>
+          <thead id="cabeceratabla">
+            <tr>
+                <th scope="col">ASIGNATURAS</th>
+                <th scope="col">CRÉDITOS</th>
+                <th scope="col">IHS</th>
+                <th scope="col">PRE-REQUISITO</th>
+            </tr> 
+          </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Proyecto Formativo V</th>
+                    <td align="center">3</td>
+                    <td align="center">2/4</td>
+                    <td align="center">Proyecto Formativo IV</td>
+                </tr>
+                <tr>
+                    <th scope="row">Salud Pública y Promoción de la Salud V</th>
+                    <td align="center">3</td>
+                    <td align="center">2/3</td>
+                    <td align="center">Salud Pública y Promoción de la Salud IV</td>
+                </tr>
+                <tr>
+                    <th scope="row">Educación y Comunicación para la Salud III</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">3/2</td>
+                    <td align="center">Educación y Comunicación para la Salud II</td>
+                </tr>
+                <tr>
+                    <th scope="row">Actividad Física</th>
+                    <td colspan="1" align="center">2</td>
+                    <td align="center">2/2</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Saneamiento Básico</th>
+                    <td colspan="1" align="center">2</td>
+                    <td align="center">2/2</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Producción de Audiovisuales</th>
+                    <td colspan="1" align="center">2</td>
+                    <td align="center">2/3</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Electiva III</th>
+                    <td colspan="1" align="center">1</td>
+                    <td align="center">3/0</td>
+                    <td align="center"></td>
+                </tr>
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>7 Materias</td>
+                <td colspan="1" ><h6>16 Créditos</td>
+            </tr>
+      </div>
+
+      <!-- SEMESTRE 6 -->
+      <input type="radio" name="radio" id="radio6">
+      <div class="tab6">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 6</h4>
+                        </tr> 
+                </div> 
+            </thead>
+                <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+                </thead>
+                <tbody id="cuerpotabla">
+                    <tr>
+                        <th scope="row">Práctica Integrada</th>
+                        <td align="center">10</td>
+                        <td align="center">0/15</td>
+                        <td align="center">Aprobación de todos los cursos del plan de estudios hasta quinto semestre</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Teorías Especificas</th>
+                        <td align="center">4</td>
+                        <td align="center">6/0</td>
+                        <td align="center">Aprobación de todos los cursos del plan de estudios hasta quinto semestre</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Política Pública y Gestión Local</th>
+                        <td align="center">2</td>
+                        <td align="center">2/0</td>
+                        <td align="center">Aprobación de todos los cursos del plan de estudios hasta quinto semestre</td>
+                    </tr>
+                   
+                </tbody>
+                </table>
+                <tr id="footer">
+                    <td colspan="1" ><h6>3 Materias</td>
+                    <td colspan="1" ><h6>18 Créditos</td>
+                </tr>
+      </div>
+
+
+      <!-- REQUISITOS DE GRADO -->
+      <input type="radio" name="radio" id="radio12">
+      <div class="tab12">
+            <table class="table table-sm">
+            <thead id="cabeceratabla">
+            <div scope="col">
+            <tr>
+                <h4>Requisitos de grado</h4>
+            </tr> 
+    </div> 
+            </thead>
+            <tbody id="cuerpotabla">
+                <th scope="row" align="left">
+                <li>Cumplimiento total de número de créditos del plan de estudios</li>
+                <li>Eficiencia en inglés(Dos niveles).</li>
+                <li>Cumplimiento de todos los requisitos legales y administrativos para optar al título.</li>
+                
+                <li>Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</li>
+                <li>1. Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</li>
+                <li>2. Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</li>
+                <li>3. Formación Humanística (Formación ciudadana) IHS 2  Créditos 2</li>
+                <li>4. Formación Humanística (Formación en problemáticas de contexto) IHS 2  Créditos 2</li>
+                <li>5. Competencias básicas (Lectura y producción de textos I) IHS 2  Créditos 2</li>
+                <li>6. Competencias básicas (Lectura y producción de textos II) IHS 2  Créditos 2</li>
+                <li>7. Competencias básicas (Lenguaje y herramientas informáticas) IHS 4  Créditos 2</li>
+            </tbody>
+            </table>
+      </div>
+  </div>
+</div>
+  </div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+</div>
+`
+    }
+
     /*############################################ SISTEMAS #################################################*/
 
-    if(idimg == 'imgingsistemas'){
+    if(idimg == 'imgfacingsistemas'){
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -4818,6 +5316,1311 @@ ${text}
                     <td colspan="1" ><h6>70 Créditos</td>
         </tr>
       </div>
+
+
+      <!-- REQUISITOS DE GRADO -->
+      <input type="radio" name="radio" id="radio12">
+      <div class="tab12">
+            <table class="table table-sm">
+            <thead id="cabeceratabla">
+            <div scope="col">
+            <tr>
+                <h4>Requisitos de grado</h4>
+            </tr> 
+    </div> 
+            </thead>
+            <tbody id="cuerpotabla">
+                <th scope="row" align="left">
+                <li>Cumplimiento total de número de créditos del plan de estudios</li>
+                <li>Eficiencia en inglés.</li>
+                <li>Cumplimiento de todos los requisitos legales y administrativos para optar al título.</li>
+                
+                <li>Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</li>
+                <li>1. Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</li>
+                <li>2. Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</li>
+                <li>3. Formación Humanística (Formación ciudadana) IHS 2  Créditos 2</li>
+                <li>4. Formación Humanística (Formación en problemáticas de contexto) IHS 2  Créditos 2</li>
+                <li>5. Competencias básicas (Lectura y producción de textos I) IHS 2  Créditos 2</li>
+                <li>6. Competencias básicas (Lectura y producción de textos II) IHS 2  Créditos 2</li>
+                <li>7. Competencias básicas (Lenguaje y herramientas informáticas) IHS 4  Créditos 2</li>
+            </tbody>
+            </table>
+      </div>
+  </div>
+</div>
+  </div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+</div>
+`
+    }
+
+    /*############################################ ELECTRÓNICA #################################################*/
+
+    if(idimg == 'imgfacingelectronica'){
+        document.getElementById('exampleModalLabel').innerHTML = "";
+        document.getElementById('bodymodal').innerHTML = `
+    ${text}
+<div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+
+      <div class="carousel-item active">
+          <img src="img/plantillas/facing/electronica/electronicageneral.png" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+          <img src="img/plantillas/facing/electronica/electronicaocupacional.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/plantillas/facing/electronica/electronicaprofesional.png" class="d-block w-100" alt="...">
+      </div>
+
+  <div class="carousel-item" >                  
+  <div class="container">
+  <div class="tab1" >
+                <table class="table table-sm" id="titulo">
+                    <thead id="cabeceratabla">
+                        <tr>
+                            <th scope="col" id="titulo-plan-estudios"><h1>Plan de estudios</h2></th>
+                            <th scope="col" id="iconotabla"><img src="img/programa.png" class="d-block w-100" alt="..."></th>
+                        </tr>
+                    </thead>
+                </table>
+  </div>
+  <div class="lbl-menu" >
+      <label for="radio1">I</label>
+      <label for="radio2">II</label>
+      <label for="radio3">III</label>
+      <label for="radio4">IV</label>
+      <label for="radio5">V</label>
+      <label for="radio6">VI</label>
+      <label for="radio7">VII</label>
+      <label for="radio8">VIII</label>
+      <label for="radio9">IX</label>
+      <label for="radio10">X</label>
+      <label for="radio11">Requisitos de Grado</label>
+  </div>
+
+  
+  <!-- SEMESTRE 1 -->
+  <div class="content"> 
+                        
+      <input type="radio" name="radio" id="radio1" checked >
+      <div class="tab1">
+                <table class="table table-sm">
+                    <thead  id="titulosemestre">
+                    <div scope="col">
+                                <tr>
+                                   <h4>Semestre 1</h4>
+                                </tr> 
+                    </div> 
+                    </thead>
+                <thead id="cabeceratabla">                                               
+                    <tr>
+                        <th scope="col">ASIGNATURAS</th>
+                        <th scope="col">CRÉDITOS</th>
+                        <th scope="col">IHS<br> <p><small>TEORÍA/PRÁCTICA</small></p></th>
+                    </tr>
+                </thead>
+                    <tbody id="cuerpotabla">
+                        <tr>
+                            <th scope="row">Álgebra Lineal</th>
+                                <td align="center">3</td>
+                                <td align="center">4/0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cálculo Diferencial</th>
+                                <td align="center">3</td>
+                                <td align="center">4/0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fundamentos de Programación</th>
+                                <td align="center" colspan="1">3</td>
+                                <td align="center">2/2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Introducción a la Ingeniería Electrónica</th>
+                            <td colspan="1" align="center">1</td>
+                            <td align="center">2/0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Física I</th>
+                            <td colspan="1" align="center">4</td>
+                            <td align="center">4/2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Simulación y Medidas I</th>
+                            <td colspan="1" align="center">1</td>
+                            <td align="center">0/2</td>
+                        </tr>
+                    </tbody>                        
+                </table>
+                
+                <tr id="footer">
+                    <tr>
+                    <td colspan="1" ><h6>6 Materias</td>
+                    <td colspan="1" ><h6>15 Créditos</td>
+                </tr> 
+            
+    </div>
+
+    <!-- SEMESTRE 2 -->
+      <input type="radio" name="radio" id="radio2">
+      <div class="tab2">
+        <table class="table table-sm">
+            <thead  id="titulosemestre">
+                        <div scope="col">
+                                    <tr>
+                                    <h4>Semestre 2</h4>
+                                    </tr> 
+                        </div> 
+                        </thead>
+            <thead id="cabeceratabla">
+            <tr>
+                        <th scope="col" >ASIGNATURAS</th>
+                        <th scope="col">CRÉDITOS</th>
+                        <th scope="col">IHS</th>
+                        <th scope="col">PRE-REQUISITO</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpotabla">
+            <tr>
+                <th scope="row">Cálculo Integral</th>
+                <td align="center">3</td>
+                <td align="center">4/0</td>
+                <td align="center">Cálculo Diferencial</td>
+            </tr>
+            <tr>
+                <th scope="row">Física II</th>
+                <td align="center">4</td>
+                <td align="center">4/2</td>
+                <td align="center">Física I</td>
+            </tr>
+            <tr>
+                <th scope="row">Circuitos I</th>
+                <td align="center" colspan="1">4</td>
+                <td align="center" >4/2</td>
+                <td align="center">Álgebra Linea</td>
+            </tr>
+            <tr>
+                <th scope="row">Programación de Computadores</th>
+                <td colspan="1"align="center">3</td>
+                <td align="center">2/2</td>
+                <td align="center">Fundamentos de Programación</td>
+            </tr>
+            <tr>
+                <th scope="row">Lógica Matemática</th>
+                <td colspan="1"align="center">1</td>
+                <td align="center">2/0</td>
+                <td align="center">Matemáticas generales</td>
+            </tr>
+            <tr>
+                <th scope="row">Simulación y Medidas II</th>
+                <td align="center"colspan="1" >1</td>
+                <td align="center">0/2</td>
+                <td align="center">Simulación y Medidas II</td>
+            </tr>
+
+        </tbody>
+        </table>
+        <tr id="footer">
+                    <td colspan="1" ><h6>6 Materias</td>
+                    <td colspan="1" ><h6>16 Créditos</td>
+        </tr> 
+      </div>
+      
+<!-- SEMESTRE 3 -->
+      <input type="radio" name="radio" id="radio3">
+      <div class="tab3">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+            <div scope="col">
+                        <tr>
+                        <h4>Semestre 3</h4>
+                        </tr> 
+            </div> 
+            </thead>
+<thead id="cabeceratabla">
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Ecuaciones Diferenciales</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Circuitos II</th>
+                    <td align="center">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Circuitos I</td>
+                </tr>
+                <tr>
+                    <th scope="row">Electrónica I</th>
+                    <td colspan="1" align="center">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Circuitos I</td>
+                </tr>
+                <tr>
+                    <th scope="row">Circuitos Digitales I</th>
+                    <td colspan="1" align="center">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Lógica Matemática</td>
+                </tr>
+                <tr>
+                    <th scope="row">Metodología de la Investigación</th>
+                    <td colspan="1" align="center">1</td>
+                    <td align="center">2/0</td>
+                    <td align="center">Introducción a la Ingeniería Electrónica</td>
+                </tr>
+
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>5 Materias</td>
+                <td colspan="1" ><h6>16 Créditos</td>
+            </tr> 
+      </div>
+      
+      <!-- SEMESTRE 4 -->
+      <input type="radio" name="radio" id="radio4">
+      <div class="tab4">
+        <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 4</h4>
+                        </tr> 
+                </div> 
+            </thead>
+        
+          <thead id="cabeceratabla">
+            <tr>
+                <th scope="col">ASIGNATURAS</th>
+                <th scope="col">CRÉDITOS</th>
+                <th scope="col">IHS</th>
+                <th scope="col">PRE-REQUISITO</th>
+            </tr>
+          </thead>
+            <tbody id="cuerpotabla">
+            <tr>
+                        <th scope="row">Cálculo Multivariable</th>
+                        <td align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center">Ecuaciones Diferenciales</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Física III</th>
+                        <td align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center">Física II</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Circuitos III</th>
+                        <td colspan="1" align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center">Circuitos II</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Electrónica II</th>
+                        <td colspan="1" align="center">4</td>
+                        <td align="center">4/2</td>
+                        <td align="center">Electrónica I</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Circuitos Digitales II</th>
+                        <td colspan="1" align="center">4</td>
+                        <td align="center">4/2</td>
+                        <td align="center">Circuitos Digitales I</td>
+                    </tr>
+                    
+                                           
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>5 Materias</td>
+                <td colspan="1" ><h6>17 Créditos</td>
+            </tr> 
+      </div>
+
+      <!-- SEMESTRE 5 -->
+      <input type="radio" name="radio" id="radio5">
+      <div class="tab5">
+        <table class="table table-sm">
+        <thead  id="titulosemestre">
+            <div scope="col">
+                    <tr>
+                        <h4>Semestre 5</h4>
+                    </tr> 
+            </div> 
+        </thead>
+          <thead id="cabeceratabla">
+            <tr>
+                <th scope="col">ASIGNATURAS</th>
+                <th scope="col">CRÉDITOS</th>
+                <th scope="col">IHS</th>
+                <th scope="col">PRE-REQUISITO</th>
+            </tr> 
+          </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Matemáticas Especiales</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Ecuaciones Diferenciales</td>
+                </tr>
+                <tr>
+                    <th scope="row">Campos</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Física III</td>
+                </tr>
+                <tr>
+                    <th scope="row">Electrónica III</th>
+                    <td colspan="1" align="center">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Electrónica II</td>
+                </tr>
+                <tr>
+                    <th scope="row">Física Moderna</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Física II</td>
+                </tr>
+                <tr>
+                    <th scope="row">Probabilidad y Estadística</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Cálculo Integral</td>
+                </tr>
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>5 Materias</td>
+                <td colspan="1" ><h6>16 Créditos</td>
+            </tr>
+      </div>
+
+      <!-- SEMESTRE 6 -->
+      <input type="radio" name="radio" id="radio6">
+      <div class="tab6">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 6</h4>
+                        </tr> 
+                </div> 
+            </thead>
+                <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+                </thead>
+                <tbody id="cuerpotabla">
+                    <tr>
+                        <th scope="row">Análisis de Sistemas Dinámicos</th>
+                        <td align="center">4</td>
+                        <td align="center">4/2</td>
+                        <td align="center">Matemáticas Especiales</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Teoría de Señales</th>
+                        <td align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center">Matemáticas Especiales</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Instrumentación</th>
+                        <td colspan="1" align="center">4</td>
+                        <td align="center">4/2</td>
+                        <td align="center">Electrónica III</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Electrónica de Potencia</th>
+                        <td colspan="1" align="center">4</td>
+                        <td align="center">4/2</td>
+                        <td align="center">Circuitos III</td>
+                    </tr>
+                   
+                </tbody>
+                </table>
+                <tr id="footer">
+                    <td colspan="1" ><h6>4 Materias</td>
+                    <td colspan="1" ><h6>15 Créditos</td>
+                </tr>
+      </div>
+
+
+      <!-- SEMESTRE 7 -->
+      <input type="radio" name="radio" id="radio7">
+      <div class="tab7">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 7</h4>
+                        </tr> 
+                </div> 
+            </thead>
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Automatización</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Análisis de Sistemas Dinámicos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Comunicaciones I</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Teoría de Señales y Campos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sistemas de Control</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">nálisis de Sistemas Dinámicos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Electromedicina</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Haber aprobado 24 asignaturas</td>
+                </tr>
+               
+            </tbody>
+            </table>
+            <tr id="footer">
+                    <td colspan="1" ><h6>4 Materias</td>
+                    <td colspan="1" ><h6>12 Créditos</td>
+            </tr>
+      </div>
+
+      <!-- SEMESTRE 8 -->
+      <input type="radio" name="radio" id="radio8">
+      <div class="tab8">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 8</h4>
+                        </tr> 
+                </div> 
+            </thead>
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row"> Electiva I</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Tener aprobadas 21 asignaturas</td>
+                </tr>
+                <tr>
+                    <th scope="row">Administración De Empresa De Ingeniería I</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Profundización I (A&C)</th>
+                    <td align="center" colspan="1">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Automatización</td>
+                </tr>
+                <tr>
+                    <th scope="row">Profundización I (EM)</th>
+                    <td align="center" colspan="1">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Electromedicina</td>
+                </tr>
+                <tr>
+                    <th scope="row">Comunicaciones II</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Comunicaciones I</td>
+                </tr>     
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                    <td colspan="1" ><h6>5 Materias</td>
+                    <td colspan="1" ><h6>13 Créditos</td>
+            </tr>
+      </div>
+
+      <!-- SEMESTRE 9 -->
+      <input type="radio" name="radio" id="radio9">
+      <div class="tab9">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 9</h4>
+                        </tr> 
+                </div> 
+            </thead>
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Electiva II</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Tener aprobadas 21 asignaturas</td>
+                </tr>
+                <tr>
+                    <th scope="row">Formulación Y Evaluación de Proyectos</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Administración De Empresas De Ingeniería I</td>
+                </tr>
+                <tr>
+                    <th scope="row">Administración De Empresas De Ingeniería II</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Administración De Empresas De Ingeniería I</td>
+                </tr>
+                <tr>
+                    <th scope="row">Profundización II (A&C)</th>
+                    <td align="center" colspan="1">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Profundización I (A&C)</td>
+                </tr>
+                <tr>
+                    <th scope="row">Profundización II (EM)</th>
+                    <td align="center" colspan="1">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Profundización I (EM)</td>
+                </tr>  
+            </tbody>
+            </table>
+            <tr id="footer">
+                    <td colspan="1" ><h6>5 Materias</td>
+                    <td colspan="1" ><h6>13 Créditos</td>
+            </tr>
+      </div>
+
+
+      <!-- SEMESTRE 10 -->
+      <input type="radio" name="radio" id="radio10">
+      <div class="tab10">
+        <table class="table table-sm">
+        <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 10</h4>
+                        </tr> 
+                </div> 
+        </thead>
+        <thead id="cabeceratabla">
+            <tr>
+                <th scope="col">ASIGNATURAS</th>
+                <th scope="col">CRÉDITOS</th>
+                <th scope="col">IHS</th>
+                <th scope="col">PRE-REQUISITO</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpotabla">
+            <tr>
+                <th scope="row">Electiva III</th>
+                <td align="center">3</td>
+                <td align="center">4/0</td>
+                <td align="center">Tener aprobadas 21 asignaturas</td>
+            </tr>
+            <tr>
+                <th scope="row">Proyecto De Ingeniería Electrónica</th>
+                <td align="center">3</td>
+                <td align="center">4/0</td>
+                <td align="center">Formulación y Evaluación De Proyectos</td>
+            </tr>
+            <tr>
+            <th scope="row">Electiva IV</th>
+            <td align="center" colspan="1">3</td>
+            <td align="center">4/0</td>
+            <td align="center">Tener aprobadas 21 asignaturas</td>
+            </tr>
+            <tr>
+                <th scope="row">Sistema De Gestión de la Calidad</th>
+                <td align="center" colspan="1">3</td>
+                <td align="center">4/0</td>
+                <td align="center">Administración de Empresas De Ingeniería. II</td>
+            </tr>  
+        </tbody>
+        </table>
+        <tr id="footer">
+                    <td colspan="1" ><h6>4 Materias</td>
+                    <td colspan="1" ><h6>12 Créditos</td>
+        </tr>
+      </div>
+
+
+
+      <!-- REQUISITOS DE GRADO -->
+      <input type="radio" name="radio" id="radio11">
+      <div class="tab11">
+            <table class="table table-sm">
+            <thead id="cabeceratabla">
+            <div scope="col">
+            <tr>
+                <h4>Requisitos de grado</h4>
+            </tr> 
+    </div> 
+            </thead>
+            <tbody id="cuerpotabla">
+                <th scope="row" align="left">
+                <li>Aprobar el plan de estudios</li>
+                <li>Cursar y aprobar los créditos de formación humanística y competencias básicas</li>
+                <li>Acreditar eficiencia en ingles</li>     
+                <li>Presentar y sustentar un trabajo de grado de acuerdo con las normas establecidas</li>
+                <li>Cursar y aprobar cuatro asignaturas electivas</li>
+                </th>
+                
+            </tbody>
+            </table>
+      </div>
+  </div>
+</div>
+  </div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+</div>
+`
+    }
+
+    /*############################################ CIVIL #################################################*/
+
+    if(idimg == 'imgfacingcivil'){
+        document.getElementById('exampleModalLabel').innerHTML = "";
+        document.getElementById('bodymodal').innerHTML = `
+    ${text}
+<div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+
+      <div class="carousel-item active">
+          <img src="img/plantillas/facing/civil/civilgeneral.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+          <img src="img/plantillas/facing/civil/civilprofesional.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/plantillas/facing/civil/civilocupacional.jpg" class="d-block w-100" alt="...">
+      </div>
+
+  <div class="carousel-item" >                  
+  <div class="container">
+  <div class="tab1" >
+                <table class="table table-sm" id="titulo">
+                    <thead id="cabeceratabla">
+                        <tr>
+                            <th scope="col" id="titulo-plan-estudios"><h1>Plan de estudios</h2></th>
+                            <th scope="col" id="iconotabla"><img src="img/programa.png" class="d-block w-100" alt="..."></th>
+                        </tr>
+                    </thead>
+                </table>
+  </div>
+  <div class="lbl-menu" >
+      <label for="radio1">I</label>
+      <label for="radio2">II</label>
+      <label for="radio3">III</label>
+      <label for="radio4">IV</label>
+      <label for="radio5">V</label>
+      <label for="radio6">VI</label>
+      <label for="radio7">VII</label>
+      <label for="radio8">VIII</label>
+      <label for="radio9">IX</label>
+      <label for="radio11">Requisitos de Grado</label>
+  </div>
+
+  
+  <!-- SEMESTRE 1 -->
+  <div class="content"> 
+                        
+      <input type="radio" name="radio" id="radio1" checked >
+      <div class="tab1">
+                <table class="table table-sm">
+                    <thead  id="titulosemestre">
+                    <div scope="col">
+                                <tr>
+                                   <h4>Semestre 1</h4>
+                                </tr> 
+                    </div> 
+                    </thead>
+                <thead id="cabeceratabla">                                               
+                    <tr>
+                        <th scope="col">ASIGNATURAS</th>
+                        <th scope="col">CRÉDITOS</th>
+                        <th scope="col">IHS<br> <p><small>TEORÍA/PRÁCTICA</small></p></th>
+                    </tr>
+                </thead>
+                    <tbody id="cuerpotabla">
+                        <tr>
+                            <th scope="row">Cálculo Diferencial</th>
+                                <td align="center">3</td>
+                                <td align="center">4/0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Programación I</th>
+                                <td align="center">4</td>
+                                <td align="center">2/4</td>
+                            </tr>
+                        <tr>
+                            <th scope="row">Dibujo Técnico</th>
+                                <td colspan="1" align="center">3</td>
+                                <td align="center">0/4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Química general</th>
+                                <td align="center" colspan="1">4</td>
+                                <td align="center">3/3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Metodología de la Investigación</th>
+                            <td colspan="1" align="center">1</td>
+                            <td align="center">2/0</td>
+                        </tr>
+                        
+                    </tbody>                        
+                </table>
+                
+                <tr id="footer">
+                    <tr>
+                    <td colspan="1" ><h6>5 Materias</td>
+                    <td colspan="1" ><h6>15 Créditos</td>
+                </tr> 
+            
+    </div>
+
+    <!-- SEMESTRE 2 -->
+      <input type="radio" name="radio" id="radio2">
+      <div class="tab2">
+        <table class="table table-sm">
+            <thead  id="titulosemestre">
+                        <div scope="col">
+                                    <tr>
+                                    <h4>Semestre 2</h4>
+                                    </tr> 
+                        </div> 
+                        </thead>
+            <thead id="cabeceratabla">
+            <tr>
+                        <th scope="col" >ASIGNATURAS</th>
+                        <th scope="col">CRÉDITOS</th>
+                        <th scope="col">IHS</th>
+                        <th scope="col">PRE-REQUISITO</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpotabla">
+            <tr>
+                <th scope="row">Cálculo Integral</th>
+                <td align="center">3</td>
+                <td align="center">4/0</td>
+                <td align="center">Cálculo Diferencial</td>
+            </tr>
+            <tr>
+                <th scope="row">Física</th>
+                <td align="center">4</td>
+                <td align="center">4/2</td>
+                <td align="center">Cálculo Diferencial</td>
+            </tr>
+            <tr>
+                <th scope="row">Topografía</th>
+                <td colspan="1"align="center">4</td>
+                <td align="center">3/3</td>
+                <td align="center">Dibujo Técnico</td>
+            </tr>
+            <tr>
+                <th scope="row">Algebra lineal</th>
+                <td align="center"colspan="1" >3</td>
+                <td align="center">4/0</td>
+                <td align="center"></td>
+            </tr>
+            <tr>
+                <th scope="row">Probabilidad y estadística</th>
+                <td align="center" colspan="1">3</td>
+                <td align="center" >4/0</td>
+                <td align="center">Curso de Competencias Matemáticas</td>
+            </tr>
+
+        </tbody>
+        </table>
+        <tr id="footer">
+                    <td colspan="1" ><h6>5 Materias</td>
+                    <td colspan="1" ><h6>17 Créditos</td>
+        </tr> 
+      </div>
+      
+<!-- SEMESTRE 3 -->
+      <input type="radio" name="radio" id="radio3">
+      <div class="tab3">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+            <div scope="col">
+                        <tr>
+                        <h4>Semestre 3</h4>
+                        </tr> 
+            </div> 
+            </thead>
+<thead id="cabeceratabla">
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Ecuaciones Diferenciales</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Cálculo Integral</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mecánica</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Físics I</td>
+                </tr>
+                <tr>
+                    <th scope="row">Geología</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Topografía</td>
+                </tr>
+                <tr>
+                    <th scope="row">Métodos Numéricos</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Programación I y Cálculo Diferencial</td>
+                </tr>
+                <tr>
+                    <th scope="row">Física II</th>
+                    <td colspan="1" align="center">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Física I</td>
+                </tr>
+
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>5 Materias</td>
+                <td colspan="1" ><h6>16 Créditos</td>
+            </tr> 
+      </div>
+      
+      <!-- SEMESTRE 4 -->
+      <input type="radio" name="radio" id="radio4">
+      <div class="tab4">
+        <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 4</h4>
+                        </tr> 
+                </div> 
+            </thead>
+        
+          <thead id="cabeceratabla">
+            <tr>
+                <th scope="col">ASIGNATURAS</th>
+                <th scope="col">CRÉDITOS</th>
+                <th scope="col">IHS</th>
+                <th scope="col">PRE-REQUISITO</th>
+            </tr>
+          </thead>
+            <tbody id="cuerpotabla">
+            <tr>
+                        <th scope="row">Mecánica de Fluidos</th>
+                        <td align="center">3</td>
+                        <td align="center">4/1</td>
+                        <td align="center">Mecánica</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Geomática</th>
+                        <td align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center">Topografía y Programación I</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Materiales de Construcción</th>
+                        <td colspan="1" align="center">4</td>
+                        <td align="center">3/3</td>
+                        <td align="center">Geología y Probabilidad y Estadística</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Diseño Geométrico de Carreteras</th>
+                        <td colspan="1" align="center">4</td>
+                        <td align="center">0/6</td>
+                        <td align="center">Topografía</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Investigación de Operaciones</th>
+                        <td colspan="1" align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center">Álgebra Lineal</td>
+                    </tr>
+                    
+                                           
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>5 Materias</td>
+                <td colspan="1" ><h6>17 Créditos</td>
+            </tr> 
+      </div>
+
+      <!-- SEMESTRE 5 -->
+      <input type="radio" name="radio" id="radio5">
+      <div class="tab5">
+        <table class="table table-sm">
+        <thead  id="titulosemestre">
+            <div scope="col">
+                    <tr>
+                        <h4>Semestre 5</h4>
+                    </tr> 
+            </div> 
+        </thead>
+          <thead id="cabeceratabla">
+            <tr>
+                <th scope="col">ASIGNATURAS</th>
+                <th scope="col">CRÉDITOS</th>
+                <th scope="col">IHS</th>
+                <th scope="col">PRE-REQUISITO</th>
+            </tr> 
+          </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Administración de Empresas de Ingeniería</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Resistencia de Materiales</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Mecánica</td>
+                </tr>
+                <tr>
+                    <th scope="row">Hidráulica</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">4/1</td>
+                    <td align="center">Mecánica de Fluidos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Concretos Asfalticos</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">2/2</td>
+                    <td align="center">Materiales de construcción</td>
+                </tr>
+                <tr>
+                    <th scope="row">Hidrología</th>
+                    <td colspan="1" align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Probabilidad y Estadistica, Geomática y Mecanica de Fluidos</td>
+                </tr>
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                <td colspan="1" ><h6>5 Materias</td>
+                <td colspan="1" ><h6>15 Créditos</td>
+            </tr>
+      </div>
+
+      <!-- SEMESTRE 6 -->
+      <input type="radio" name="radio" id="radio6">
+      <div class="tab6">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 6</h4>
+                        </tr> 
+                </div> 
+            </thead>
+                <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+                </thead>
+                <tbody id="cuerpotabla">
+                    <tr>
+                        <th scope="row">Análisis Estructural I</th>
+                        <td align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center">Resistencia de Materiales y haber aprobado el cuarto nivel de Inglés o presentar Certificación con Nivel B1 o Superior en Inglés</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Acueductos y Alcantarillados</th>
+                        <td align="center">4</td>
+                        <td align="center">6/0</td>
+                        <td align="center">Hidráulica</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Formulación y Evaluación de Proyectos</th>
+                        <td colspan="1" align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mecánica de suelos</th>
+                        <td colspan="1" align="center">4</td>
+                        <td align="center">4/2</td>
+                        <td align="center">Materiales de Construcción y haber aprobado el cuarto nivel de Inglés o presentar certificación con Nivel B1 o Superior en Inglés </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Electiva I</th>
+                        <td colspan="1" align="center">3</td>
+                        <td align="center">4/0</td>
+                        <td align="center"></td>
+                    </tr>
+                   
+                </tbody>
+                </table>
+                <tr id="footer">
+                    <td colspan="1" ><h6>5 Materias</td>
+                    <td colspan="1" ><h6>17 Créditos</td>
+                </tr>
+      </div>
+
+
+      <!-- SEMESTRE 7 -->
+      <input type="radio" name="radio" id="radio7">
+      <div class="tab7">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 7</h4>
+                        </tr> 
+                </div> 
+            </thead>
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Estructuras de Concreto Armado I</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Análisis Estructural I</td>
+                </tr>
+                <tr>
+                    <th scope="row">Análisis Estructural II</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Análisi Estructural I y Métodos Numéricos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Cimentaciones</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Mecánica de Suelos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Pavimentos</th>
+                    <td align="center" colspan="1">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Mecánica de Suelos y Concretos Asfalticos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Electiva II</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>
+               
+            </tbody>
+            </table>
+            <tr id="footer">
+                    <td colspan="1" ><h6>5 Materias</td>
+                    <td colspan="1" ><h6>16 Créditos</td>
+            </tr>
+      </div>
+
+      <!-- SEMESTRE 8 -->
+      <input type="radio" name="radio" id="radio8">
+      <div class="tab8">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 8</h4>
+                        </tr> 
+                </div> 
+            </thead>
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Estructuras de Concreto Armado II</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Estructuras de Concreto Armado I y Análisis Estructural II</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tratamiento de Aguas</th>
+                    <td align="center">4</td>
+                    <td align="center">4/2</td>
+                    <td align="center">Acueductos y Alcantarillados y Química General</td>
+                </tr>
+                <tr>
+                    <th scope="row">Técnicas de Construcción de Obras Viales</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Pavimentos</td>
+                </tr>
+                <tr>
+                    <th scope="row">Electiva III</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Electiva IV</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>     
+                
+            </tbody>
+            </table>
+            <tr id="footer">
+                    <td colspan="1" ><h6>5 Materias</td>
+                    <td colspan="1" ><h6>15 Créditos</td>
+            </tr>
+      </div>
+
+      <!-- SEMESTRE 9 -->
+      <input type="radio" name="radio" id="radio9">
+      <div class="tab9">
+            <table class="table table-sm">
+            <thead  id="titulosemestre">
+                <div scope="col">
+                        <tr>
+                            <h4>Semestre 9</h4>
+                        </tr> 
+                </div> 
+            </thead>
+            <thead id="cabeceratabla">
+                <tr>
+                    <th scope="col">ASIGNATURAS</th>
+                    <th scope="col">CRÉDITOS</th>
+                    <th scope="col">IHS</th>
+                    <th scope="col">PRE-REQUISITO</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpotabla">
+                <tr>
+                    <th scope="row">Técnicas de Constucción de Edificaciones</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Estructuras de Concreto Armado II</td>
+                </tr>
+                <tr>
+                    <th scope="row">Proyectos de Ingeniería Civil</th>
+                    <td align="center">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center">Formulación y Evaluacion de proyectos e Investigación de Operaciones</td>
+                </tr>
+                <tr>
+                    <th scope="row">Electiva V</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Electiva VI</th>
+                    <td align="center" colspan="1">3</td>
+                    <td align="center">4/0</td>
+                    <td align="center"></td>
+                </tr>  
+            </tbody>
+            </table>
+            <tr id="footer">
+                    <td colspan="1" ><h6>4 Materias</td>
+                    <td colspan="1" ><h6>16 Créditos</td>
+            </tr>
+      </div>
+
 
 
       <!-- REQUISITOS DE GRADO -->

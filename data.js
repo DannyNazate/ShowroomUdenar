@@ -441,25 +441,29 @@ var APP_DATA = {
                 "target": "3-pasillo_2"
             }],
             "infoHotspots": [{
-                    "yaw": 0.4989436923244792,
-                    "pitch": 0.1743612343518457,
+                    "yaw": 0.4272980747447846,
+                    "pitch": -0.07343518457,
                     "title": "Title",
                     "text": "",
-                    "id": "imgingsistemas",
+                    "id": "imgfacingsistemas",
                     "texto": "INGENIERÍA EN SISTEMAS"
 
                 },
                 {
                     "yaw": 0.20298899511782587,
-                    "pitch": 0.40813812573808583,
+                    "pitch": 0.0813812573808583,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfacingelectronica",
+                    "texto": "INGENIERÍA ELETRÓNICA"
                 },
                 {
-                    "yaw": 0.7044977322435031,
-                    "pitch": 0.34702225371362516,
+                    "yaw": 0.6044977322435031,
+                    "pitch": 0.07813812573808583,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfacingcivil",
+                    "texto": "INGENIERÍA CIVIL"
                 }
             ]
         },
@@ -556,18 +560,18 @@ var APP_DATA = {
                 "target": "4-pasillo_3"
             }],
             "infoHotspots": [{
-                    "yaw": -0.261063541182013,
-                    "pitch": -0.21800330501115006,
+                    "yaw": -0.561063541182013,
+                    "pitch": -0.11800330501115006,
                     "title": "Title",
                     "text": "",
                     "id": "imgfacsaludmedicina",
                     "texto": "MEDICINA"
                 },
                 {
-                    "yaw": -0.24743390491962458,
-                    "pitch": 0.24812564892829947,
+                    "yaw": -0.04743390491962458,
+                    "pitch": -0.210016,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfacsaludpromsalud",
                     "texto": "PROMOCIÓN DE LA SALUD"
                 }
