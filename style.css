@@ -85,6 +85,26 @@
     background-image: url(img/agricolas.png);
 }
 
+#imgfacsaludmedicina {
+    background-image: url(img/logos/medicina.png);
+}
+
+#imgfacsaludpromsalud {
+    background-image: url(img/logos/promsalud.png);
+}
+
+#imgfacingsistemas {
+    background-image: url(img/logos/sistemaslogo.png);
+}
+
+#imgfacingelectronica {
+    background-image: url(img/logos/electronica.png);
+}
+
+#imgfacingcivil {
+    background-image: url(img/logos/civil.png);
+}
+
 
 /*MODIFICAR TAMAÑO DE ICONO/BOTON*/
 
@@ -1019,7 +1039,8 @@ body {
 #radio8,
 #radio9,
 #radio10,
-#radio11 {
+#radio11,
+#radio12 {
     display: none;
 }
 
@@ -1033,7 +1054,8 @@ body {
 #radio8:checked~.tab8,
 #radio9:checked~.tab9,
 #radio10:checked~.tab10,
-#radio11:checked~.tab11 {
+#radio11:checked~.tab11,
+#radio12:checked~.tab12 {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
