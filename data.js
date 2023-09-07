@@ -331,27 +331,28 @@ var APP_DATA = {
                 "target": "2-pasillo_1"
             }],
             "infoHotspots": [{
-                    "yaw": -0.45561827299068014,
-                    "pitch": -0.06112132053418051,
-                    "title": "Title",
-                    "text": "",
-                    "id": "imgfaciainformatica",
-                    "texto": "LICENCIATURA EN INFORMATICA"
-                },
-                {
-                    "yaw": 0.2731610959231183,
-                    "pitch": -0.05588700836342042,
-                    "title": "Title",
-                    "text": "",
-                    "id": "imgfaciafisica",
-                    "texto": "FISICA"
-                },
-                {
-                    "yaw": 0.04296029222785691,
-                    "pitch": 0.32967525848337154,
-                    "title": "Title",
-                    "text": "Text"
-                }
+                "yaw": -0.45561827299068014,
+                "pitch": -0.06112132053418051,
+                "title": "Title",
+                "text": "",
+                "id": "imgfaciainformatica",
+                "texto": "LICENCIATURA EN INFORMATICA"
+            },
+            {
+                "yaw": 0.2731610959231183,
+                "pitch": 0.04058700836342042,
+                "title": "Title",
+                "text": "",
+                "id": "imgfaciafisica",
+                "texto": "FISICA"
+                
+            },
+            {
+                "yaw": 0.04296029222785691,
+                "pitch": 0.32967525848337154,
+                "title": "Title",
+                "text": "Text"
+            }
             ]
         },
         {
@@ -388,23 +389,29 @@ var APP_DATA = {
                 "target": "3-pasillo_2"
             }],
             "infoHotspots": [{
-                    "yaw": -0.2936653621367835,
-                    "pitch": 0.07263735625348033,
-                    "title": "Title",
-                    "text": "Text"
-                },
-                {
-                    "yaw": -0.7543887923378421,
-                    "pitch": 0.39249500379658464,
-                    "title": "Title",
-                    "text": "Text"
-                },
-                {
-                    "yaw": 0.0041763959154845764,
-                    "pitch": 0.4242019633186658,
-                    "title": "Title",
-                    "text": "Text"
-                }
+                "yaw": 0.0041763959154845764,
+                "pitch": 0.07263735625348033,
+                "title": "Title",
+                "text": "",
+                "id": "imgfacambiental",
+                "texto": "Ingenieria Ambiental"
+            },
+            {
+                "yaw": -0.7743887923378421,
+                "pitch": 0.07263735625348033,
+                "title": "Title",
+                "text": "Text",
+                "id": "imgfacagronomica",
+                "texto": "Ingenieria Agronómica"
+            },
+            /*{
+                "yaw": 0.0041763959154845764,
+                "pitch": 0.4242019633186658,
+                "title": "Title",
+                "text": "Text",
+                "id": "",
+                "texto": ""
+            }*/
             ]
         },
         {

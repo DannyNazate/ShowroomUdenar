@@ -69,6 +69,22 @@
     background-image: url(img/logos/musica.png);
 }
 
+#imgfaciainformatica {
+    background-image: url(img/informatica.png);
+}
+
+#imgfaciafisica {
+    background-image: url(img/fisica.png);
+}
+
+#imgfacambiental {
+    background-image: url(img/ambiental.png);
+}
+
+#imgfacagronomica {
+    background-image: url(img/agricolas.png);
+}
+
 
 /*MODIFICAR TAMAÑO DE ICONO/BOTON*/
 
@@ -110,7 +126,8 @@
 
 #imagen-bienvenida {
     display: none;
-    max-width: 100%;
+    max-width: 58%;
+    border-radius: 25px;
     height: auto;
     visibility: hidden;
 }
