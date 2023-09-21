@@ -252,7 +252,7 @@
 
         // Create image element.
         var icon = document.createElement('img');
-        icon.src = 'img/flechas.svg';
+        icon.src = 'img/link.png';
         icon.classList.add('link-hotspot-icon');
 
         // Set rotation transform.
