@@ -50,23 +50,59 @@
 }
 
 #imgfaceadministracionempresas {
-    background-image: url(img/logos/administracionempresas.png);
+    background-image: url(img/logos/administracion.jpeg);
 }
 
 #imgfaceacomercio {
-    background-image: url(img/logos/comercio.png);
+    background-image: url(img/logos/comercio.jpeg);
 }
 
 #imgfacartesarquitectura {
-    background-image: url(img/logos/arquitectura.png);
+    background-image: url(img/logos/arquitectura.jpeg);
 }
 
 #imgfacartesgrafico {
-    background-image: url(img/logos/grafico.png);
+    background-image: url(img/logos/grafico.jpeg);
 }
 
 #imgfacartesmusica {
-    background-image: url(img/logos/musica.png);
+    background-image: url(img/logos/musica.jpeg);
+}
+
+#imgfaciainformatica {
+    background-image: url(img/logos/informatica.jpeg);
+}
+
+#imgfaciafisica {
+    background-image: url(img/logos/fisica.jpeg);
+}
+
+#imgfacambiental {
+    background-image: url(img/logos/ambiental.jpeg);
+}
+
+#imgfacagronomica {
+    background-image: url(img/logos/agronomia.jpeg);
+}
+
+#imgfacsaludmedicina {
+    background-image: url(img/logos/medicina.jpeg);
+}
+
+#imgfacsaludpromsalud {
+    background-image: url(img/logos/promocion.jpeg);
+}
+
+#imgfacingsistemas {
+    background-image: url(img/logos/sistemas.jpeg);
+}
+
+#imgfacingelectronica {
+    background-image: url(img/logos/electronica.jpeg);
+}
+
+#imgfacingcivil {
+    background-image: url(img/logos/civil.jpeg);
 }
 
 
@@ -110,7 +146,8 @@
 
 #imagen-bienvenida {
     display: none;
-    max-width: 100%;
+    max-width: 58%;
+    border-radius: 25px;
     height: auto;
     visibility: hidden;
 }
@@ -1002,7 +1039,8 @@ body {
 #radio8,
 #radio9,
 #radio10,
-#radio11 {
+#radio11,
+#radio12 {
     display: none;
 }
 
@@ -1016,7 +1054,8 @@ body {
 #radio8:checked~.tab8,
 #radio9:checked~.tab9,
 #radio10:checked~.tab10,
-#radio11:checked~.tab11 {
+#radio11:checked~.tab11,
+#radio12:checked~.tab12 {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
@@ -1072,3 +1111,52 @@ body {
 .content .tab11:after {
     left: 660px;
 }
+
+/*ESTILOS PARA EL MODAL DE BIENVENIDA*/
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    
+     
+  }
+  
+  .modal-contenido {
+    
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 6% auto;
+    padding: 20px;
+    width: 60rem;
+    height: 30rem;
+    
+    
+  }
+
+  .info-modal{
+    border-radius: 10px;
+    max-width: 100%;
+    
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  

@@ -331,27 +331,28 @@ var APP_DATA = {
                 "target": "2-pasillo_1"
             }],
             "infoHotspots": [{
-                    "yaw": -0.45561827299068014,
-                    "pitch": -0.06112132053418051,
-                    "title": "Title",
-                    "text": "",
-                    "id": "imgfaciainformatica",
-                    "texto": "LICENCIATURA EN INFORMATICA"
-                },
-                {
-                    "yaw": 0.2731610959231183,
-                    "pitch": -0.05588700836342042,
-                    "title": "Title",
-                    "text": "",
-                    "id": "imgfaciafisica",
-                    "texto": "FISICA"
-                },
-                {
-                    "yaw": 0.04296029222785691,
-                    "pitch": 0.32967525848337154,
-                    "title": "Title",
-                    "text": "Text"
-                }
+                "yaw": -0.45561827299068014,
+                "pitch": -0.06112132053418051,
+                "title": "Title",
+                "text": "",
+                "id": "imgfaciainformatica",
+                "texto": "LICENCIATURA EN INFORMATICA"
+            },
+            {
+                "yaw": 0.2731610959231183,
+                "pitch": 0.04058700836342042,
+                "title": "Title",
+                "text": "",
+                "id": "imgfaciafisica",
+                "texto": "FISICA"
+                
+            },
+            {
+                "yaw": 0.04296029222785691,
+                "pitch": 0.32967525848337154,
+                "title": "Title",
+                "text": "Text"
+            }
             ]
         },
         {
@@ -388,23 +389,29 @@ var APP_DATA = {
                 "target": "3-pasillo_2"
             }],
             "infoHotspots": [{
-                    "yaw": -0.2936653621367835,
-                    "pitch": 0.07263735625348033,
-                    "title": "Title",
-                    "text": "Text"
-                },
-                {
-                    "yaw": -0.7543887923378421,
-                    "pitch": 0.39249500379658464,
-                    "title": "Title",
-                    "text": "Text"
-                },
-                {
-                    "yaw": 0.0041763959154845764,
-                    "pitch": 0.4242019633186658,
-                    "title": "Title",
-                    "text": "Text"
-                }
+                "yaw": 0.0041763959154845764,
+                "pitch": 0.07263735625348033,
+                "title": "Title",
+                "text": "",
+                "id": "imgfacambiental",
+                "texto": "Ingenieria Ambiental"
+            },
+            {
+                "yaw": -0.7743887923378421,
+                "pitch": 0.07263735625348033,
+                "title": "Title",
+                "text": "",
+                "id": "imgfacagronomica",
+                "texto": "Ingenieria Agronómica"
+            },
+            /*{
+                "yaw": 0.0041763959154845764,
+                "pitch": 0.4242019633186658,
+                "title": "Title",
+                "text": "Text",
+                "id": "",
+                "texto": ""
+            }*/
             ]
         },
         {
@@ -441,22 +448,29 @@ var APP_DATA = {
                 "target": "3-pasillo_2"
             }],
             "infoHotspots": [{
-                    "yaw": 0.4989436923244792,
-                    "pitch": 0.1743612343518457,
+                    "yaw": 0.4272980747447846,
+                    "pitch": -0.07343518457,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfacingsistemas",
+                    "texto": "INGENIERÍA EN SISTEMAS"
+
                 },
                 {
                     "yaw": 0.20298899511782587,
-                    "pitch": 0.40813812573808583,
+                    "pitch": 0.0813812573808583,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfacingelectronica",
+                    "texto": "INGENIERÍA ELETRÓNICA"
                 },
                 {
-                    "yaw": 0.7044977322435031,
-                    "pitch": 0.34702225371362516,
+                    "yaw": 0.6044977322435031,
+                    "pitch": 0.07813812573808583,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfacingcivil",
+                    "texto": "INGENIERÍA CIVIL"
                 }
             ]
         },
@@ -553,18 +567,20 @@ var APP_DATA = {
                 "target": "4-pasillo_3"
             }],
             "infoHotspots": [{
-                    "yaw": -0.261063541182013,
-                    "pitch": -0.21800330501115006,
+                    "yaw": -0.561063541182013,
+                    "pitch": -0.11800330501115006,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfacsaludmedicina",
                     "texto": "MEDICINA"
                 },
                 {
-                    "yaw": -0.24743390491962458,
-                    "pitch": 0.24812564892829947,
+                    "yaw": -0.04743390491962458,
+                    "pitch": -0.210016,
                     "title": "Title",
-                    "text": "Text"
+                    "text": "",
+                    "id": "imgfacsaludpromsalud",
+                    "texto": "PROMOCIÓN DE LA SALUD"
                 }
             ]
         }

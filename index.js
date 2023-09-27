@@ -141,7 +141,7 @@
 
     // Start with the scene list open on desktop.
     if (!document.body.classList.contains('mobile')) {
-        showSceneList();
+        hideSceneList();
     }
 
     // Set handler for scene switch.
@@ -186,7 +186,7 @@
         scene.view.setParameters(scene.data.initialViewParameters);
         scene.scene.switchTo();
         startAutorotate();
-        updateSceneName(scene);
+        //updateSceneName(scene);
         updateSceneList(scene);
     }
 
