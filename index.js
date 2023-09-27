@@ -141,7 +141,7 @@
 
     // Start with the scene list open on desktop.
     if (!document.body.classList.contains('mobile')) {
-        showSceneList();
+        hideSceneList();
     }
 
     // Set handler for scene switch.
