@@ -2846,7 +2846,7 @@ ${text}
     /*############################################ COMERCIO INTERNACIONAL #################################################*/
 
 
-    if (idimg == 'imgfaceadministracionempresas') {
+    if (idimg == 'imgfaceacomercio') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
 ${text}
