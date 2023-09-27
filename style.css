@@ -1122,26 +1122,20 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
-    
-     
   }
   
   .modal-contenido {
-    
-    background-color: rgba(0,0,0,0.3);
+    background-color: gainsboro;
     border-radius: 10px;
     margin: 6% auto;
     padding: 20px;
     width: 60rem;
     height: 30rem;
-    
-    
   }
 
   .info-modal{
     border-radius: 10px;
     max-width: 100%;
-    
   }
   
   .close {
@@ -1157,6 +1151,4 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
-  
-  
   
