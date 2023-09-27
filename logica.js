@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-window.addEventListener('DOMContentLoaded', function() {
-    var imagenBienvenida = document.getElementById('imagen-bienvenida');
-    imagenBienvenida.style.display = 'block';
-    var botonCerrar = document.getElementById('boton-cerrar');
-    botonCerrar.addEventListener('click', function() {
-        imagenBienvenida.style.display = 'none';
-        botonCerrar.style.display = 'none';
-    });
-});
-
-=======
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 function Visible(idimg) {
     document.getElementById(idimg).classList.remove("text-programa-no-visible");
     document.getElementById(idimg).classList.add("text-programa-visible");
@@ -22,9 +9,6 @@ function noVisible(idimg) {
 }
 
 function setDataModal(idimg, text) {
-<<<<<<< HEAD
-      /*informatica*/
-=======
     if (idimg == 'imgfacartesarquitectura') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
@@ -3421,7 +3405,6 @@ ${text}
 `
     }
     /*informatica*/
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     if (idimg == 'imgfaciainformatica') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
@@ -3965,17 +3948,10 @@ ${text}
   `
     }
 
-<<<<<<< HEAD
-  /*------------------------fisica----------------------*/
-  if (idimg == 'imgfaciafisica') {
-    document.getElementById('exampleModalLabel').innerHTML = "";
-    document.getElementById('bodymodal').innerHTML = `
-=======
     /*------------------------fisica----------------------*/
     if (idimg == 'imgfaciafisica') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     ${text}
     <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -4497,19 +4473,11 @@ ${text}
     </button>
   </div>
 `
-<<<<<<< HEAD
-}
-/*ingenieria ambiental-----*/
-if (idimg == 'imgfacambiental') {
-    document.getElementById('exampleModalLabel').innerHTML = "";
-    document.getElementById('bodymodal').innerHTML = `
-=======
     }
     /*ingenieria ambiental-----*/
     if (idimg == 'imgfacambiental') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     ${text}
     <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -5128,19 +5096,11 @@ if (idimg == 'imgfacambiental') {
     </button>
   </div>
 `
-<<<<<<< HEAD
-}
-/*ingenieria agronomica*/
-if (idimg == 'imgfacagronomica') {
-    document.getElementById('exampleModalLabel').innerHTML = "";
-    document.getElementById('bodymodal').innerHTML = `
-=======
     }
     /*ingenieria agronomica*/
     if (idimg == 'imgfacagronomica') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     ${text}
     <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -5722,14 +5682,6 @@ if (idimg == 'imgfacagronomica') {
     </button>
   </div>
 `
-<<<<<<< HEAD
-}
-
-    /*####################################*/
-
-
-    if (idimg == "<img src='img/left.png'>") {
-=======
     }
 
     /*############################################ SALUD #################################################*/
@@ -6977,7 +6929,6 @@ if (idimg == 'imgfacagronomica') {
     /*############################################ SISTEMAS #################################################*/
 
     if (idimg == 'imgfacingsistemas') {
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -6985,22 +6936,6 @@ if (idimg == 'imgfacagronomica') {
 <div class="carousel-inner">
 
       <div class="carousel-item active">
-<<<<<<< HEAD
-        <img src="img/link.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/info1.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/perfil general.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-      </div>
-      <div class="carousel-item">
-          <embed src="docs/Plan de estudios.pdf" height="400px" type="application/pdf" class="d-block w-100" alt="...">
-      </div>  
-=======
           <img src="img/plantillas/facing/Sistemas/sistemasgeneral.png" class="d-block w-100" alt="...">
       </div>
 
@@ -7010,22 +6945,14 @@ if (idimg == 'imgfacagronomica') {
       <div class="carousel-item">
         <img src="img/plantillas/facing/Sistemas/sistemasprofesional.png" class="d-block w-100" alt="...">
       </div>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 
   <div class="carousel-item" >                  
   <div class="container">
   <div class="tab1" >
-<<<<<<< HEAD
-                <table class="table table-sm">
-                    <thead id="cabeceratabla">
-                        <tr>
-                            <th scope="col"><h2>Plan de estudios</h2></th>
-=======
                 <table class="table table-sm" id="titulo">
                     <thead id="cabeceratabla">
                         <tr>
                             <th scope="col" id="titulo-plan-estudios"><h1>Plan de estudios</h2></th>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                             <th scope="col" id="iconotabla"><img src="img/programa.png" class="d-block w-100" alt="..."></th>
                         </tr>
                     </thead>
@@ -7044,18 +6971,6 @@ if (idimg == 'imgfacagronomica') {
       <label for="radio10">X</label>
       <label for="radio11">Requisitos de Grado</label>
   </div>
-<<<<<<< HEAD
-  
-  <div class="content">         
-      <input type="radio" name="radio" id="radio1" checked >
-      <div class="tab1">
-                <table class="table table-sm">
-                <thead id="cabeceratabla">
-                    <tr>
-                        <th scope="col">ASIGNATURAS</th>
-                        <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                        <th scope="col">CRÉDITOS ACADÉMICOS</th>
-=======
 
   
   <!-- SEMESTRE 1 -->
@@ -7076,60 +6991,10 @@ if (idimg == 'imgfacagronomica') {
                         <th scope="col">ASIGNATURAS</th>
                         <th scope="col">CRÉDITOS</th>
                         <th scope="col">IHS<br> <p><small>TEORÍA/PRÁCTICA</small></p></th>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                     </tr>
                 </thead>
                     <tbody id="cuerpotabla">
                         <tr>
-<<<<<<< HEAD
-                            <th scope="row">Dibujo I</th>
-                                <td align="center">3</td>
-                                <td align="center">3</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Pintura I</th>
-                                <td align="center">3</td>
-                                <td align="center">3</td>
-                            </tr>
-                        <tr>
-                            <th scope="row">Lenguaje Visual I</th>
-                                <td colspan="1" align="center">2</td>
-                                <td align="center">2</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Escultura I</th>
-                                <td align="center" colspan="1">3</td>
-                                <td align="center">3</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Fotografía Básica</th>
-                            <td colspan="1" align="center">3</td>
-                            <td align="center">3</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Introducción a la Investigación I (Teoría Estética I)</th>
-                            <td colspan="1" align="center">2</td>
-                            <td align="center">1</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Introducción a la Historia del Arte</th>
-                            <td colspan="1" align="center">2</td>
-                            <td align="center">1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            
-    </div>
-      <input type="radio" name="radio" id="radio2">
-      <div class="tab2">
-        <table class="table table-sm">
-        <thead id="cabeceratabla">
-            <tr>
-                <th scope="col">ASIGNATURAS</th>
-                <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                <th scope="col">PRE-REQUISITOS</th>
-=======
                             <th scope="row">Programación I</th>
                                 <td align="center">4</td>
                                 <td align="center">2/4</td>
@@ -7183,127 +7048,10 @@ if (idimg == 'imgfacagronomica') {
                         <th scope="col">CRÉDITOS</th>
                         <th scope="col">IHS</th>
                         <th scope="col">PRE-REQUISITO</th>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             </tr>
         </thead>
         <tbody id="cuerpotabla">
             <tr>
-<<<<<<< HEAD
-                <th scope="row">Dibujo II</th>
-                <td align="center">3</td>
-                <td align="center">3</td>
-                <td align="center">Dibujo I</td>
-            </tr>
-            <tr>
-                <th scope="row">Pintura II</th>
-                <td align="center">3</td>
-                <td align="center">3</td>
-                <td align="center">Pintura I</td>
-            </tr>
-            <tr>
-                <th scope="row">Escultura II</th>
-                <td colspan="1"align="center">3</td>
-                <td align="center">3</td>
-                <td align="center">Escultura I</td>
-
-            </tr>
-            <tr>
-                <th scope="row">Lenguaje Visual II</th>
-                <td align="center"colspan="1" >2</td>
-                <td align="center">2</td>
-                <td align="center">Lenguaje Visual I</td>
-            </tr>
-            <tr>
-                <th scope="row">Fotografía Digital</th>
-                <td align="center" colspan="1">3</td>
-                <td align="center">3</td>
-                <td align="center">Fotografía Básica</td>
-            </tr>
-            <tr>
-                <th scope="row">Introducción a la Investigación (Teoría Estética II)</th>
-                <td align="center" colspan="1">2</td>
-                <td align="center" >1</td>
-                <td align="center" >Introducción a la Investigación (Teoría Estética I)</td>
-
-            </tr>
-            <tr>
-                <th scope="row">Módulo Historia del Arte I</th>
-                <td align="center" colspan="1">2</td>
-                <td align="center" >1</td>
-                <td align="center" >Introducción a la Historia del Arte</td>
-
-            </tr>
-        </tbody>
-        </table>
-      </div>
-      
-      <input type="radio" name="radio" id="radio3">
-      <div class="tab3">
-            <table class="table table-sm">
-            <thead id="cabeceratabla">
-                <tr>
-                <th scope="col">ASIGNATURAS</th>
-                <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                <th scope="col">PRE-REQUISITO</th>
-                </tr>
-            </thead>
-            <tbody id="cuerpotabla">
-                <tr>
-                    <th scope="row">Dibujo III</th>
-                    <td align="center">3</td>
-                    <td align="center">3</td>
-                    <td align="center">Dibujo II</td>
-                    
-                </tr>
-                <tr>
-                    <th scope="row">Pintura III</th>
-                    <td align="center">3</td>
-                    <td align="center">3</td>
-                    <td align="center">Pintura II</td>
-                </tr>
-                <tr>
-                    <th scope="row">Escultura III</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
-                    <td align="center">Escultura II</td>
-                </tr>
-                <tr>
-                    <th scope="row">Fotografía Experimental</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
-                    <td align="center">Fotografía Digital</td>
-                </tr>
-                <tr>
-                    <th scope="row">Arte de Acción I</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
-                </tr>
-                <tr>
-                    <th scope="row">Artes de Investigación</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td align="center">Introducción a la Investigación II y Teoría Estética</td>
-                </tr>
-                <tr>
-                    <th scope="row">Historia del Arte II</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td align="center">	Módulo Historia del Arte I</td>
-                </tr>
-            </tbody>
-            </table>
-      </div>
-      <input type="radio" name="radio" id="radio4">
-      <div class="tab4">
-            <table class="table table-sm">
-            <thead id="cabeceratabla">
-                <tr>
-                    <th scope="col">ASIGNATURAS</th>
-                    <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                    <th scope="col">HORAS SEMANALES
-                    TEORÍA/PRÁCTICA</th>
-=======
                 <th scope="row">Programación II</th>
                 <td align="center">4</td>
                 <td align="center">2/4</td>
@@ -7359,250 +7107,11 @@ if (idimg == 'imgfacagronomica') {
                     <th scope="col">ASIGNATURAS</th>
                     <th scope="col">CRÉDITOS</th>
                     <th scope="col">IHS</th>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                     <th scope="col">PRE-REQUISITO</th>
                 </tr>
             </thead>
             <tbody id="cuerpotabla">
                 <tr>
-<<<<<<< HEAD
-                    <th scope="row">Dibujo IV</th>
-                    <td align="center">3</td>
-                    <td align="center">3</td>
-                    <td align="center">Dibujo III</td>
-                </tr>
-                <tr>
-                    <th scope="row">Pintura IV</th>
-                    <td align="center">3</td>
-                    <td align="center">3</td>
-                    <td>Pintura III</td>
-                </tr>
-                <tr>
-                    <th scope="row">Escultura IV</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
-                    <td>Escultura II</td>
-                </tr>
-                <tr>
-                    <th scope="row">Video I</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">2</td>
-                    <td>Fotografía Experimental</td>
-                </tr>
-                <tr>
-                    <th scope="row">Taller Experimentación de Materiales</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">2</td>
-                    <td>Escultura III</td>
-                </tr>
-                <tr>
-                    <th scope="row">Artes de Acción II</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
-                    <td>Artes de Acción I</td> 
-                </tr>
-                <tr>
-                    <th scope="row">Arte de Investigación II</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td>Arte de Investigación I</td>
-                <tr>
-                    <th scope="row">Historia del Arte III</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td>Historia del Arte II</td> 
-                </tr>
-            </tbody>
-            </table>
-      </div>
-      <input type="radio" name="radio" id="radio5">
-      <div class="tab5">
-            <table class="table table-sm">
-            <thead id="cabeceratabla">
-                <tr>
-                <th scope="col">ASIGNATURAS</th>
-                <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                <th scope="col">PRE-REQUISITOS</th>
-                </tr>
-
-            </thead>
-            <tbody id="cuerpotabla">
-                <tr>
-                    <th scope="row">Grafica I</th>
-                    <td align="center">4</td>
-                    <td align="center">4</td>
-                    <td>Dibujo IV</td>
-                </tr>
-                <tr>
-                    <th scope="row">Escultura V</th>
-                    <td align="center">3</td>
-                    <td align="center">3</td>
-                    <td>Escultura IV</td>
-                </tr>
-                <tr>
-                    <th scope="row">Video II</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
-                    <td>Video I</td>
-                </tr>
-                <tr>
-                    <th scope="row">Taller Central</th>
-                    <td colspan="1" align="center">3</td>
-                    <td align="center">3</td>
-                    <td>Taller de Acción II</td>
-                </tr>
-                <tr>
-                    <th scope="row">Investigación y Fenomenología</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td>Artes e Investigación II</td>
-                </tr>
-                <tr>
-                    <th scope="row">Historia del Arte IV</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td>Historia del Arte III</td>
-                </tr>
-                <tr>
-                    <th scope="row">Estudios Culturales</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td>Historia del Arte III</td>
-                </tr>
-                <tr>
-                    <th scope="row">Arte y Lenguaje</th>
-                    <td colspan="1" align="center">2</td>
-                    <td align="center">1</td>
-                    <td></td>
-                </tr>
-
-            </tbody>
-            </table>
-      </div>
-      <input type="radio" name="radio" id="radio6">
-      <div class="tab6">
-            <table class="table table-sm">
-                <thead id="cabeceratabla">
-                    <tr>
-                        <th scope="col">ASIGNATURAS</th>
-                        <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                        <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                        <th scope="col">PRE-REQUISITOS</th>
-                    </tr>
-                </thead>
-                <tbody id="cuerpotabla">
-                    <tr>
-                        <th scope="row">Taller de Proyecto Periferia: Vivienda/Equipamiento/Diseño Urbano (una de 3 opciones)</th>
-                        <td align="center">6</td>
-                        <td align="center">6</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Grafica II</th>
-                        <td align="center">4</td>
-                        <td align="center">4</td>
-                        <td align="center">Grafica I</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">Arquitectura y Ciudad en Periferia</th>
-                        <td colspan="1" align="center">3</td>
-                        <td align="center">3</td>
-                        <td align="center">Video II</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">Taller Central II</th>
-                        <td colspan="1" align="center">3</td>
-                        <td align="center">3</td>
-                        <td align="center">Taller Central I</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Opciones Espaciales</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">2</td>
-                        <td align="center">Taller Central I</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Teoría del Arte y la Cultura</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">2</td>
-                        <td align="center">Investigación y Fenomenología
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Sociología Arte y Contexto</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">1</td>
-                        <td align="center">Estudios Culturales
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Opcional I</th>
-                        <td colspan="1" align="center">2</td>
-                        <td align="center">1</td>
-                        <td align="center">
-                        </td>
-                </tr>
-                </tbody>
-                </table>
-      </div>
-      semestre 7
-      <input type="radio" name="radio" id="radio7">
-      <div class="tab7">
-            <table class="table table-sm">
-            <thead id="cabeceratabla">
-            <tr>
-                <th scope="col">ASIGNATURAS</th>
-                <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                <th scope="col">PRE-REQUISITOS</th>
-            </tr>
-            </thead>
-            <tbody id="cuerpotabla">
-                <tr>
-                    <th scope="row">Taller de Proyecto Centro con Valor Patrimonial: Vivivenda/Equipamiento/Diseño Urbano (una de 3 opciones)</th>
-                    <td align="center">6</td>
-                    <td align="center">6</td>
-                </tr>
-                <tr>
-                    <th scope="row">Taller de Materialización: Urbana III/Arquitectónica III (una de 2 opciones)</th>
-                    <td align="center">2</td>
-                    <td align="center">2</td>
-                </tr>
-                <tr>
-                    <th scope="row">Teoría y Crítica del Patrimonio de la Arquitectura y la Ciudad</th>
-                    <td align="center" colspan="1">2</td>
-                    <td align="center">2</td>
-                </tr>
-                <tr>
-                    <th scope="row">Derecho a la Ciudad (Teórico-Urbano. Cursa Quinto o Séptimo)</th>
-                    <td align="center" colspan="1">0</td>
-                    <td align="center">0</td>
-                </tr>
-                <tr>
-                    <th scope="row">Asignatura Electiva Disciplinar (una de 15 opciones)</th>
-                    <td align="center" colspan="1">2</td>
-                    <td align="center">2</td>
-                </tr>
-                <tr>
-                    <th scope="row">Ética Profesional y Valores</th>
-                    <td align="center" colspan="1">2</td>
-                    <td align="center">2</td>
-                </tr>
-            </tbody>
-            </table>
-      </div>
-      <input type="radio" name="radio" id="radio8">
-      <div class="tab8">
-            <table class="table table-sm">
-            <thead id="cabeceratabla">
-                <tr>
-                    <th scope="col">ASIGNATURAS</th>
-                    <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                    <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                    <th scope="col">PRE-REQUISITOS</th>
-=======
                     <th scope="row">Programación III</th>
                     <td align="center">4</td>
                     <td align="center">2/4</td>
@@ -7898,54 +7407,10 @@ if (idimg == 'imgfacagronomica') {
                     <th scope="col">CRÉDITOS</th>
                     <th scope="col">IHS</th>
                     <th scope="col">PRE-REQUISITO</th>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 </tr>
             </thead>
             <tbody id="cuerpotabla">
                 <tr>
-<<<<<<< HEAD
-                    <th scope="row">Taller de Proyecto Ciudad Intermedia: Vivienda/Equipamiento/Diseño Urbano (una de 3 opciones)</th>
-                    <td align="center">6</td>
-                    <td align="center">6</td>
-                </tr>
-                <tr>
-                    <th scope="row">Taller de Materialización: Urbana IV/Arquitectónica IV (una de 2 opciones)</th>
-                    <td align="center">2</td>
-                    <td align="center">2</td>
-                </tr>
-                <tr>
-                    <th scope="row">Arquitectura de la Vivienda</th>
-                    <td align="center" colspan="1">2</td>
-                    <td align="center">2</td>
-                </tr>
-                <tr>
-                    <th scope="row">Ciudad Intermedia y Periferia (Teórico-Urbano. Cursa sexto u octavo)</th>
-                    <td align="center" colspan="1">3</td>
-                    <td align="center">3</td>
-                </tr>
-                <tr>
-                    <th scope="row">Asignatura Electiva Disciplinar (dos de 14 opciones)</th>
-                    <td align="center" colspan="1">4</td>
-                    <td align="center">4</td>
-                </tr>
-                <tr>
-                    <th scope="row">Portafolio II</th>
-                    <td align="center" colspan="1">1</td>
-                    <td align="center">1</td>
-                </tr>
-            </tbody>
-            </table>
-      </div>
-      <input type="radio" name="radio" id="radio9">
-      <div class="tab9">
-            <table class="table table-sm">
-            <thead id="cabeceratabla">
-                <tr>
-                    <th scope="col">ASIGNATURAS</th>
-                    <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                    <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                    <th scope="col">PRE-REQUISITOS</th>
-=======
                     <th scope="row">Sistemas basados en conocimiento</th>
                     <td align="center">3</td>
                     <td align="center">2/2</td>
@@ -8001,29 +7466,10 @@ if (idimg == 'imgfacagronomica') {
                     <th scope="col">CRÉDITOS</th>
                     <th scope="col">IHS</th>
                     <th scope="col">PRE-REQUISITO</th>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 </tr>
             </thead>
             <tbody id="cuerpotabla">
                 <tr>
-<<<<<<< HEAD
-                    <th scope="row">Trabajo de Grado I. El estudiante deberá optar por una de las siguientes opciones: Trabajo Proyectual I / Proyecto Teórico I / Intercambio / Pasantía Interna / Diplomados del Programa</th>
-                    <td align="center">8</td>
-                    <td align="center">8</td>
-                </tr>
-            </tbody>
-            </table>
-      </div>
-      <input type="radio" name="radio" id="radio10">
-      <div class="tab10">
-        <table class="table table-sm">
-        <thead id="cabeceratabla">
-            <tr>
-                <th scope="col">ASIGNATURAS</th>
-                <th scope="col">HORAS SEMANALES TEORÍA/PRÁCTICA</th>
-                <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                <th scope="col">PRE-REQUISITOS</th>
-=======
                     <th scope="row">Modelos de computación</th>
                     <td align="center">3</td>
                     <td align="center">2/2</td>
@@ -8079,41 +7525,10 @@ if (idimg == 'imgfacagronomica') {
                 <th scope="col">CRÉDITOS</th>
                 <th scope="col">IHS</th>
                 <th scope="col">PRE-REQUISITO</th>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             </tr>
         </thead>
         <tbody id="cuerpotabla">
             <tr>
-<<<<<<< HEAD
-                <th scope="row">Trabajo de Grado II. El estudiante deberá optar por una de las siguientes opciones: Trabajo Proyectual II / Proyecto Teórico II / Intercambio / Pasantía Interna / Diplomados del Programa</th>
-                <td align="center">8</td>
-                <td align="center">8</td>
-            </tr>
-        </tbody>
-        </table>
-      </div>
-      <input type="radio" name="radio" id="radio11">
-      <div class="tab11">
-            <table class="table table-sm">
-            <thead id="cabeceratabla">
-                <tr>
-                    <th scope="col">CRÉDITOS ACADÉMICOS</th>
-                </tr>
-            </thead>
-            <tbody id="cuerpotabla">
-                <th scope="row" align="left">Cumplimiento total de número de créditos del plan de estudios
-                Eficiencia en inglés (dos niveles).
-                Trabajo de grado.
-                Los estudiantes deben cursar además, a lo largo de la carrera, las siguientes asignaturas:</th>
-                
-                <tr>Formación Humanística (Formación en humanismo)  IHS 2  Créditos 2</tr>
-                <tr>Formación Humanística (Formación en cultura artística y cultura física) IHS 2  Créditos 2</tr>
-                <tr>Formación Humanística (Formación ciudadana) IHS 2  Créditos 2</tr>
-                <tr>Formación Humanística (Formación en problemáticas de contexto) IHS 2  Créditos 2</tr>
-                <tr>Competencias básicas (Lectura y producción de textos I) IHS 2  Créditos 2</tr>
-                <tr>Competencias básicas (Lectura y producción de textos II) IHS 2  Créditos 2</tr>
-                <tr>Competencias básicas (Lenguaje y herramientas informáticas) IHS 4  Créditos 2</tr>
-=======
                 <th scope="row">Ingeniería legal</th>
                 <td align="center">3</td>
                 <td align="center">4/0</td>
@@ -8205,7 +7620,6 @@ if (idimg == 'imgfacagronomica') {
                 <li>5. Competencias básicas (Lectura y producción de textos I) IHS 2  Créditos 2</li>
                 <li>6. Competencias básicas (Lectura y producción de textos II) IHS 2  Créditos 2</li>
                 <li>7. Competencias básicas (Lenguaje y herramientas informáticas) IHS 4  Créditos 2</li>
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             </tbody>
             </table>
       </div>
@@ -8221,12 +7635,6 @@ if (idimg == 'imgfacagronomica') {
   <span class="carousel-control-next-icon" aria-hidden="true"></span>
   <span class="visually-hidden">Next</span>
 </button>
-<<<<<<< HEAD
-</div>
-`
-    }
-}
-=======
     <div class="carousel-item">
         <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
     </div>
@@ -9561,4 +8969,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
->>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
