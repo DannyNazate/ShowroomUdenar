@@ -20,12 +20,32 @@
     visibility: hidden;
     background-color: rgba(58, 68, 84);
     color: #fff;
+<<<<<<< HEAD
+=======
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    text-align: center;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 }
 
 .text-programa-visible {
     visibility: visible;
     background-color: rgba(58, 68, 84);
     color: #fff;
+<<<<<<< HEAD
+=======
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    text-align: center;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 }
 
 
@@ -36,6 +56,7 @@
 }
 
 #imgfaceadministracionempresas {
+<<<<<<< HEAD
     background-image: url(img/administracionempresas.png);
 }
 
@@ -67,28 +88,96 @@
 }
 
 
+=======
+    background-image: url(img/logos/administracion.jpeg);
+}
+
+#imgfaceacomercio {
+    background-image: url(img/logos/comercio.jpeg);
+}
+
+#imgfacartesarquitectura {
+    background-image: url(img/logos/arquitectura.jpeg);
+}
+
+#imgfacartesgrafico {
+    background-image: url(img/logos/grafico.jpeg);
+}
+
+#imgfacartesmusica {
+    background-image: url(img/logos/musica.jpeg);
+}
+
+#imgfaciainformatica {
+    background-image: url(img/logos/informatica.jpeg);
+}
+
+#imgfaciafisica {
+    background-image: url(img/logos/fisica.jpeg);
+}
+
+#imgfacambiental {
+    background-image: url(img/logos/ambiental.jpeg);
+}
+
+#imgfacagronomica {
+    background-image: url(img/logos/agronomia.jpeg);
+}
+
+#imgfacsaludmedicina {
+    background-image: url(img/logos/medicina.jpeg);
+}
+
+#imgfacsaludpromsalud {
+    background-image: url(img/logos/promocion.jpeg);
+}
+
+#imgfacingsistemas {
+    background-image: url(img/logos/sistemas.jpeg);
+}
+
+#imgfacingelectronica {
+    background-image: url(img/logos/electronica.jpeg);
+}
+
+#imgfacingcivil {
+    background-image: url(img/logos/civil.jpeg);
+}
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 
 
 /*MODIFICAR TAMAÑO DE ICONO/BOTON*/
 
 .btn-link {
+<<<<<<< HEAD
     position: fixed;
     width: 92px;
     height: 92px;
     padding: 0px;
     margin: 0px;
+=======
+    position: relative;
+    width: 92px;
+    height: 92px;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 }
 
 
 /*TABLA DE PLAN DE ESTUDIOS*/
 
+<<<<<<< HEAD
 
 #cabeceratabla {
     font-size: 13px;
+=======
+#cabeceratabla {
+    font-size: 15px;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     font-weight: bold;
     text-align: center;
 }
 
+<<<<<<< HEAD
 #iconotabla {
     width: 10%;
 }
@@ -97,11 +186,37 @@
 #cuerpotabla {
     font-size: 15px;
    
+=======
+#titulo-plan-estudios {
+    text-align: center;
+}
+
+#titulosemestre {
+    text-align: left;
+}
+
+#iconotabla {
+    width: 7%;
+}
+
+#footer {
+    width: 8%;
+    height: 8%;
+}
+
+#cuerpotabla {
+    font-size: 15px;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 }
 
 #imagen-bienvenida {
     display: none;
+<<<<<<< HEAD
     max-width: 100%;
+=======
+    max-width: 58%;
+    border-radius: 25px;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     height: auto;
     visibility: hidden;
 }
@@ -111,8 +226,13 @@
 
 .carousel-inner {
     display: flex;
+<<<<<<< HEAD
     padding-right: 76px;
     padding-left: 76px;
+=======
+    padding-right: 88px;
+    padding-left: 88px;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     padding-top: 0px;
     padding-bottom: 10px;
 }
@@ -165,10 +285,13 @@ a:visited {
     height: 100%;
     overflow: hidden;
     /*filter: brightness(1);*/
+<<<<<<< HEAD
 }
 
 .scenes.sceneName.Udenar_1 {
     filter: brightness(0);
+=======
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 }
 
 #titleBar {
@@ -983,6 +1106,11 @@ body {
     padding: 1px;
     background: #fff;
     padding-bottom: 1px;
+<<<<<<< HEAD
+=======
+    table-layout: auto;
+    width: 100%;
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
 }
 
 #radio1,
@@ -995,7 +1123,12 @@ body {
 #radio8,
 #radio9,
 #radio10,
+<<<<<<< HEAD
 #radio11 {
+=======
+#radio11,
+#radio12 {
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     display: none;
 }
 
@@ -1009,7 +1142,12 @@ body {
 #radio8:checked~.tab8,
 #radio9:checked~.tab9,
 #radio10:checked~.tab10,
+<<<<<<< HEAD
 #radio11:checked~.tab11 {
+=======
+#radio11:checked~.tab11,
+#radio12:checked~.tab12 {
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
     opacity: 1;
     visibility: visible;
     transform: scale(1);
@@ -1023,6 +1161,7 @@ body {
     border-top: 5px solid transparent;
     border-bottom: 7px solid #fff;
     bottom: 100%;
+<<<<<<< HEAD
     left: 13px;
 }
 
@@ -1066,3 +1205,88 @@ body {
     left: 520px;
 }
 
+=======
+    left: 156px;
+}
+
+.content .tab2:after {
+    left: 192px;
+}
+
+.content .tab3:after {
+    left: 234px;
+}
+
+.content .tab4:after {
+    left: 277px;
+}
+
+.content .tab5:after {
+    left: 319px;
+}
+
+.content .tab6:after {
+    left: 363px;
+}
+
+.content .tab7:after {
+    left: 410px;
+}
+
+.content .tab8:after {
+    left: 460px;
+}
+
+.content .tab9:after {
+    left: 509px;
+}
+
+.content .tab10:after {
+    left: 550px;
+}
+
+.content .tab11:after {
+    left: 660px;
+}
+
+/*ESTILOS PARA EL MODAL DE BIENVENIDA*/
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-contenido {
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin: 6% auto;
+    padding: 20px;
+    width: 60rem;
+    height: 30rem;
+  }
+
+  .info-modal{
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1

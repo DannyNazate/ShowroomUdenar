@@ -33,6 +33,7 @@ var APP_DATA = {
                 "target": "1-udenar_2"
             }],
             "infoHotspots": [{
+<<<<<<< HEAD
                     "yaw": -0.4630409400119717,
                     "pitch": 0.1903530246810874,
                     "title": "Title",
@@ -46,6 +47,11 @@ var APP_DATA = {
                     "title": "Instrucciones",
                     "text": ""
                 }
+=======
+
+                },
+
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             ]
         },
         {
@@ -92,7 +98,11 @@ var APP_DATA = {
         },
         {
             "id": "2-pasillo_1",
+<<<<<<< HEAD
             "name": "Pasillo_1",
+=======
+            "name": "Entrada Principal",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -146,7 +156,11 @@ var APP_DATA = {
         },
         {
             "id": "3-pasillo_2",
+<<<<<<< HEAD
             "name": "Pasillo_2",
+=======
+            "name": "Seguir al Pasillo 2",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -200,7 +214,11 @@ var APP_DATA = {
         },
         {
             "id": "4-pasillo_3",
+<<<<<<< HEAD
             "name": "Pasillo_3",
+=======
+            "name": "Seguir al Pasillo 3",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -248,7 +266,11 @@ var APP_DATA = {
         },
         {
             "id": "5-fac_administrativas",
+<<<<<<< HEAD
             "name": "Fac_Administrativas",
+=======
+            "name": "Ingresar a FACEA",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -281,6 +303,7 @@ var APP_DATA = {
             }],
             "infoHotspots": [{
                     "yaw": -0.4754933923792244,
+<<<<<<< HEAD
                     "pitch": 0.07042871734662981,
                     "title": "Title",
                     "text": "",
@@ -298,12 +321,31 @@ var APP_DATA = {
                     "pitch": 0.30872564811885894,
                     "title": "Title",
                     "text": "Text"
+=======
+                    "pitch": -0.00012871734662981,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfaceadministracionempresas",
+                    "texto": "Administración de Empresas"
+                },
+                {
+                    "yaw": 0.19448527013041073,
+                    "pitch": -0.00010002571061314,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfaceacomercio",
+                    "texto": "Comercio Internacional"
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 }
             ]
         },
         {
             "id": "6-fac_exactas",
+<<<<<<< HEAD
             "name": "Fac_Exactas",
+=======
+            "name": "Ingresar a FACIA",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -340,7 +382,11 @@ var APP_DATA = {
                     "title": "Title",
                     "text": "",
                     "id": "imgfaciainformatica",
+<<<<<<< HEAD
                     "texto": "LICENCIATURA EN INFORMATICA"
+=======
+                    "texto": "Licenciatura en Informática"
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 },
                 {
                     "yaw": 0.2731610959231183,
@@ -348,7 +394,12 @@ var APP_DATA = {
                     "title": "Title",
                     "text": "",
                     "id": "imgfaciafisica",
+<<<<<<< HEAD
                     "texto": "FISICA"
+=======
+                    "texto": "Física"
+
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 },
                 {
                     "yaw": 0.04296029222785691,
@@ -360,7 +411,11 @@ var APP_DATA = {
         },
         {
             "id": "7-fac_agricolas",
+<<<<<<< HEAD
             "name": "Fac_Agricolas",
+=======
+            "name": "Ingresar a Fac. Ciencias Agrícolas",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -407,6 +462,7 @@ var APP_DATA = {
                     "id": "imgfacagronomica",
                     "texto": "Ingenieria Agronómica"
                 },
+<<<<<<< HEAD
                 /*{
                     "yaw": 0.0041763959154845764,
                     "pitch": 0.4242019633186658,
@@ -415,11 +471,18 @@ var APP_DATA = {
                     "id": "",
                     "texto": ""
                 }*/
+=======
+
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             ]
         },
         {
             "id": "8-fac_ingenieria",
+<<<<<<< HEAD
             "name": "Fac_Ingenieria",
+=======
+            "name": "Ingresar a Facultad de Ingeniería",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -451,6 +514,7 @@ var APP_DATA = {
                 "target": "3-pasillo_2"
             }],
             "infoHotspots": [{
+<<<<<<< HEAD
                     "yaw": 0.4989436923244792,
                     "pitch": 0.1743612343518457,
                     "title": "Title",
@@ -467,12 +531,41 @@ var APP_DATA = {
                     "pitch": 0.34702225371362516,
                     "title": "Title",
                     "text": "Text"
+=======
+                    "yaw": 0.4272980747447846,
+                    "pitch": 0.10000000457,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfacingsistemas",
+                    "texto": "Ingeniería en Sistemas"
+
+                },
+                {
+                    "yaw": 0.12898899511722511,
+                    "pitch": 0.0813812573808583,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfacingelectronica",
+                    "texto": "Ingeniería Electrónica"
+                },
+                {
+                    "yaw": 0.7044977322435031,
+                    "pitch": 0.07813812573808583,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfacingcivil",
+                    "texto": "Ingeniería Civil"
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 }
             ]
         },
         {
             "id": "9-fac_artes",
+<<<<<<< HEAD
             "name": "Fac_Artes",
+=======
+            "name": "Facultad de Artes",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -504,6 +597,7 @@ var APP_DATA = {
                 "target": "4-pasillo_3"
             }],
             "infoHotspots": [{
+<<<<<<< HEAD
                     "yaw": -0.10272980747447846,
                     "pitch": 0.2435299550294765,
                     "title": "Arquitectura",
@@ -524,12 +618,40 @@ var APP_DATA = {
                     "pitch": 0.44281124609776157,
                     "title": "Title",
                     "text": "Text"
+=======
+                    "yaw": -0.20272980747447846,
+                    "pitch": 0.0035299550294765,
+                    "title": "Arquitectura",
+                    "text": "",
+                    "id": "imgfacartesgrafico",
+                    "texto": "Diseño Gráfico"
+                },
+                {
+                    "yaw": -0.47610891578772474,
+                    "pitch": 0.3292317600872444,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfacartesarquitectura",
+                    "texto": "Arquitectura"
+                },
+                {
+                    "yaw": 0.09768104359252092,
+                    "pitch": 0.32923176008776157,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfacartesmusica",
+                    "texto": "Licenciatura en Música"
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 }
             ]
         },
         {
             "id": "10-fac_salud",
+<<<<<<< HEAD
             "name": "Fac_Salud",
+=======
+            "name": "Facultad de Ciencias de la Salud",
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
             "levels": [{
                     "tileSize": 256,
                     "size": 256,
@@ -561,6 +683,7 @@ var APP_DATA = {
                 "target": "4-pasillo_3"
             }],
             "infoHotspots": [{
+<<<<<<< HEAD
                     "yaw": -0.261063541182013,
                     "pitch": -0.21800330501115006,
                     "title": "Title",
@@ -573,6 +696,22 @@ var APP_DATA = {
                     "pitch": 0.24812564892829947,
                     "title": "Title",
                     "text": "Text"
+=======
+                    "yaw": -0.561063541182013,
+                    "pitch": -0.11800330501115006,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfacsaludmedicina",
+                    "texto": "Medicina"
+                },
+                {
+                    "yaw": -0.04743390491962458,
+                    "pitch": -0.210016,
+                    "title": "Title",
+                    "text": "",
+                    "id": "imgfacsaludpromsalud",
+                    "texto": "Promoción de la Salud"
+>>>>>>> 4487a497fe22ddbba746232339278c9d364ca8e1
                 }
             ]
         }
