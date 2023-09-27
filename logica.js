@@ -1,16 +1,3 @@
-/*window.addEventListener('DOMContentLoaded', function() {
-    var imagenBienvenida = document.getElementById('v-pills-tab');
-    imagenBienvenida.style.display = 'block';
-    var profile = document.querySelector('v-pills-profile');
-    var tab = new bootstrap.Tab(profile)
-    tab.show();
-    botonCerrar.addEventListener('click', function() {
-        tab.show();
-    });
-});*/
-
-
-
 function Visible(idimg) {
     document.getElementById(idimg).classList.remove("text-programa-no-visible");
     document.getElementById(idimg).classList.add("text-programa-visible");
@@ -640,6 +627,7 @@ function setDataModal(idimg, text) {
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
+
   </div>
 
          
@@ -1464,7 +1452,14 @@ function setDataModal(idimg, text) {
     </div>
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
-    </div> 
+    </div>
+
+    <div class="carousel-item" >
+    
+    
+    </div>
+  
+    
   </div>
   `
     }
@@ -5691,7 +5686,7 @@ ${text}
 
     /*############################################ SALUD #################################################*/
 
-    if(idimg == 'imgfacsaludmedicina'){
+    if (idimg == 'imgfacsaludmedicina') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -6433,9 +6428,9 @@ ${text}
 `
     }
 
-     /*############################################ SALUD #################################################*/
+    /*############################################ SALUD #################################################*/
 
-     if(idimg == 'imgfacsaludpromsalud'){
+    if (idimg == 'imgfacsaludpromsalud') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -6933,7 +6928,7 @@ ${text}
 
     /*############################################ SISTEMAS #################################################*/
 
-    if(idimg == 'imgfacingsistemas'){
+    if (idimg == 'imgfacingsistemas') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -7652,7 +7647,7 @@ ${text}
 
     /*############################################ ELECTRÓNICA #################################################*/
 
-    if(idimg == 'imgfacingelectronica'){
+    if (idimg == 'imgfacingelectronica') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -8331,7 +8326,7 @@ ${text}
 
     /*############################################ CIVIL #################################################*/
 
-    if(idimg == 'imgfacingcivil'){
+    if (idimg == 'imgfacingcivil') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
