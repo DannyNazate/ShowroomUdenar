@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 'use strict';
 
 (function() {
@@ -153,8 +154,11 @@
             if (document.body.classList.contains('mobile')) {
                 hideSceneList();
             }
+
+
         });
     });
+
 
     // DOM elements for view controls.
     var viewUpElement = document.querySelector('#viewUp');
@@ -250,6 +254,8 @@
         wrapper.classList.add('hotspot');
         wrapper.classList.add('link-hotspot');
 
+
+
         // Create image element.
         var icon = document.createElement('img');
         icon.src = 'img/link.png';
@@ -279,7 +285,6 @@
 
         wrapper.appendChild(icon);
         wrapper.appendChild(tooltip);
-
         return wrapper;
     }
 

@@ -45,10 +45,6 @@
 
 /*COLOCAR ICONOS A STANDS*/
 
-#img3 {
-    background-image: url(img/iconomisionyvision.png);
-}
-
 #imgfaceadministracionempresas {
     background-image: url(img/logos/administracion.jpeg);
 }
@@ -210,7 +206,6 @@ a:visited {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /*filter: brightness(1);*/
 }
 
 #titleBar {
@@ -1112,6 +1107,7 @@ body {
     left: 660px;
 }
 
+
 /*ESTILOS PARA EL MODAL DE BIENVENIDA*/
 
 .modal {
@@ -1121,34 +1117,33 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
-  }
-  
-  .modal-contenido {
-    background-color: gainsboro;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contenido {
+    background-color: rgba(220, 220, 220, 0.701);
     border-radius: 10px;
     margin: 6% auto;
     padding: 20px;
     width: 60rem;
     height: 30rem;
-  }
+}
 
-  .info-modal{
+.info-modal {
     border-radius: 10px;
     max-width: 100%;
-  }
-  
-  .close {
+}
+
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  
+}

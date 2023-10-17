@@ -8,12 +8,14 @@ function noVisible(idimg) {
     document.getElementById(idimg).classList.add("text-programa-no-visible");
 }
 
+
+
 function setDataModal(idimg, text) {
     if (idimg == 'imgfacartesarquitectura') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
         ${text}
-    <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel" data-interval="1000">
     <div class="carousel-inner">
 
           <div class="carousel-item active">
