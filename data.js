@@ -78,7 +78,10 @@ var APP_DATA = {
                     "target": "2-pasillo_1"
                 }
             ],
-            "infoHotspots": []
+            "infoHotspots": [],
+
+
+
         },
         {
             "id": "2-pasillo_1",
