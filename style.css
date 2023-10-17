@@ -1125,7 +1125,7 @@ body {
   }
   
   .modal-contenido {
-    background-color: gainsboro;
+    background-color: rgba(29, 31, 29, 0.35);
     border-radius: 10px;
     margin: 6% auto;
     padding: 20px;
