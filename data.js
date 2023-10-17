@@ -390,7 +390,7 @@ var APP_DATA = {
                     "yaw": -0.7743887923378421,
                     "pitch": 0.07263735625348033,
                     "title": "Title",
-                    "text": "Text",
+                    "text": "",
                     "id": "imgfacagronomica",
                     "texto": "Ingenieria Agronómica"
                 },

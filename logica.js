@@ -1,3 +1,16 @@
+/*window.addEventListener('DOMContentLoaded', function() {
+    var imagenBienvenida = document.getElementById('v-pills-tab');
+    imagenBienvenida.style.display = 'block';
+    var profile = document.querySelector('v-pills-profile');
+    var tab = new bootstrap.Tab(profile)
+    tab.show();
+    botonCerrar.addEventListener('click', function() {
+        tab.show();
+    });
+});*/
+
+
+
 function Visible(idimg) {
     document.getElementById(idimg).classList.remove("text-programa-no-visible");
     document.getElementById(idimg).classList.add("text-programa-visible");
@@ -629,7 +642,9 @@ function setDataModal(idimg, text) {
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
-
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
   </div>
 
          
@@ -1454,14 +1469,10 @@ function setDataModal(idimg, text) {
     </div>
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
     </div>
-
-    <div class="carousel-item" >
-    
-    
-    </div>
-  
-    
   </div>
   `
     }
@@ -2165,6 +2176,9 @@ function setDataModal(idimg, text) {
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }
@@ -2824,6 +2838,9 @@ ${text}
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }
@@ -2831,7 +2848,7 @@ ${text}
     /*############################################ COMERCIO INTERNACIONAL #################################################*/
 
 
-    if (idimg == 'imgfaceadministracionempresas') {
+    if (idimg == 'imgfaceacomercio') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
 ${text}
@@ -3403,6 +3420,9 @@ ${text}
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div>
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }
@@ -3422,12 +3442,6 @@ ${text}
               </div>
               <div class="carousel-item">
                 <img src="img/perfileocupacional/informatica/informatica_profesional.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-              </div>
-              <div class="carousel-item">
-                  <embed src="docs/Plan de estudios.pdf" height="400px" type="application/pdf" class="d-block w-100" alt="...">
               </div>
     
           <div class="carousel-item">
@@ -3946,6 +3960,15 @@ ${text}
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+        <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
       </div>
   `
     }
@@ -3966,12 +3989,6 @@ ${text}
           </div>
           <div class="carousel-item">
             <img src="img/perfileocupacional/fisica/Fisica_ocupacional.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-          </div>
-          <div class="carousel-item">
-              <embed src="docs/Plan de estudios.pdf" height="400px" type="application/pdf" class="d-block w-100" alt="...">
           </div>
 
       <div class="carousel-item">
@@ -4336,7 +4353,7 @@ ${text}
                         <th scope="row">909- Seminario</th>
                         <td align="center">	3/0</td>
                         <td align="center">1</td>
-                        <td align="center">TFísica Moderna II</td>
+                        <td align="center">Física Moderna II</td>
                     </tr>
                     <tr>
                         <th scope="row">551- Física Estadística</th>
@@ -4473,6 +4490,15 @@ ${text}
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
   </div>
 `
     }
@@ -4498,12 +4524,6 @@ ${text}
           </div>
           <div class="carousel-item">
             <img src="img/perfileocupacional/ambiental/Ambientalpreofesional12.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-          </div>
-          <div class="carousel-item">
-              <embed src="docs/Plan de estudios.pdf" height="400px" type="application/pdf" class="d-block w-100" alt="...">
           </div>
 
       <div class="carousel-item">
@@ -5096,6 +5116,15 @@ ${text}
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <div class="carousel-item">
+        <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
   </div>
 `
     }
@@ -5118,12 +5147,6 @@ ${text}
           </div>
           <div class="carousel-item">
             <img src="img/perfileocupacional/agronimica/Agronomiaperfilprofesional2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
-          </div>
-          <div class="carousel-item">
-              <embed src="docs/Plan de estudios.pdf" height="400px" type="application/pdf" class="d-block w-100" alt="...">
           </div>
 
       <div class="carousel-item">
@@ -5682,13 +5705,23 @@ ${text}
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <div class="carousel-item">
+    <iframe src="http://sapiens.udenar.edu.co:5032/" class="d-block w-100" width=630 height=400>""</iframe>
+</div>
+<div class="carousel-item">
+    <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+</div> 
+<div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+
   </div>
 `
     }
 
     /*############################################ SALUD #################################################*/
 
-    if (idimg == 'imgfacsaludmedicina') {
+    if(idimg == 'imgfacsaludmedicina'){
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -6426,13 +6459,16 @@ ${text}
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }
 
-    /*############################################ SALUD #################################################*/
+     /*############################################ SALUD #################################################*/
 
-    if (idimg == 'imgfacsaludpromsalud') {
+     if(idimg == 'imgfacsaludpromsalud'){
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -6924,13 +6960,16 @@ ${text}
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }
 
     /*############################################ SISTEMAS #################################################*/
 
-    if (idimg == 'imgfacingsistemas') {
+    if(idimg == 'imgfacingsistemas'){
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -7643,13 +7682,16 @@ ${text}
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }
 
     /*############################################ ELECTRÓNICA #################################################*/
 
-    if (idimg == 'imgfacingelectronica') {
+    if(idimg == 'imgfacingelectronica'){
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -8322,13 +8364,16 @@ ${text}
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
     </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
 </div>
 `
     }
 
     /*############################################ CIVIL #################################################*/
 
-    if (idimg == 'imgfacingcivil') {
+    if(idimg == 'imgfacingcivil'){
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -8947,6 +8992,12 @@ ${text}
     </div>
     <div class="carousel-item">
         <iframe src="https://www.udenar.edu.co/ocara/admisiones/" class="d-block w-100" width=630 height=400>""</iframe>
+    </div> 
+    <div class="carousel-item">
+        <iframe src="formulario1/index.html" class="d-block w-100" width=630 height=400>""</iframe>
+    </div>
+
+    </div> 
     </div> 
 </div>
 `
