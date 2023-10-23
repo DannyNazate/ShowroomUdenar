@@ -10,7 +10,6 @@
 });*/
 
 
-
 function Visible(idimg) {
     document.getElementById(idimg).classList.remove("text-programa-no-visible");
     document.getElementById(idimg).classList.add("text-programa-visible");
@@ -5721,7 +5720,7 @@ ${text}
 
     /*############################################ SALUD #################################################*/
 
-    if(idimg == 'imgfacsaludmedicina'){
+    if (idimg == 'imgfacsaludmedicina') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -6466,9 +6465,9 @@ ${text}
 `
     }
 
-     /*############################################ SALUD #################################################*/
+    /*############################################ SALUD #################################################*/
 
-     if(idimg == 'imgfacsaludpromsalud'){
+    if (idimg == 'imgfacsaludpromsalud') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -6969,7 +6968,7 @@ ${text}
 
     /*############################################ SISTEMAS #################################################*/
 
-    if(idimg == 'imgfacingsistemas'){
+    if (idimg == 'imgfacingsistemas') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -7691,7 +7690,7 @@ ${text}
 
     /*############################################ ELECTRÓNICA #################################################*/
 
-    if(idimg == 'imgfacingelectronica'){
+    if (idimg == 'imgfacingelectronica') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -8373,7 +8372,7 @@ ${text}
 
     /*############################################ CIVIL #################################################*/
 
-    if(idimg == 'imgfacingcivil'){
+    if (idimg == 'imgfacingcivil') {
         document.getElementById('exampleModalLabel').innerHTML = "";
         document.getElementById('bodymodal').innerHTML = `
     ${text}
@@ -9021,4 +9020,10 @@ document.addEventListener('DOMContentLoaded', function() {
             modal.style.display = 'none';
         }
     }
+
 });
+
+function startTour() {
+    document.getElementById('close-modal').click();
+    document.getElementById('1-udenar_2').click();
+}
