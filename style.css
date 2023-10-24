@@ -43,6 +43,25 @@
 }
 
 
+/*Color de NAV*/
+
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link {
+    background: #28a745 !important;
+}
+
+#v-pills-profile-tab.nav-link,
+#v-pills-home-tab.nav-link,
+#v-pills-messages-tab.nav-link,
+#v-pills-settings-tab.nav-link {
+    color: #f0f0f0;
+}
+
+.btn-success {
+    background: #28a745 !important;
+}
+
+
 /*COLOCAR ICONOS A STANDS*/
 
 #imgfaceadministracionempresas {
@@ -380,6 +399,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
     padding: 5px;
     background-color: rgb(103, 115, 131);
     background-color: rgba(103, 115, 131, 0.8);
+    visibility: hidden;
 }
 
 .mobile #sceneListToggle {
