@@ -32,20 +32,20 @@ var APP_DATA = {
                 "rotation": 0,
                 "target": "1-udenar_2"
             }],
-            "infoHotspots": [{
+            "infoHotspots": [
+                /*{
                     "yaw": -0.4630409400119717,
                     "pitch": 0.1903530246810874,
                     "title": "Title",
                     "text": "",
-                    "id": "img3",
-                    "texto": " DE EMPRESAS"
+
                 },
                 {
                     "yaw": 0.4280508766354867,
                     "pitch": 0.17927346803086763,
                     "title": "Instrucciones",
                     "text": ""
-                }
+                }*/
             ]
         },
         {

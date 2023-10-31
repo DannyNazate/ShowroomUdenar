@@ -195,6 +195,7 @@
     }
 
     function updateSceneList(scene) {
+        console.log(scene)
         for (var i = 0; i < sceneElements.length; i++) {
             var el = sceneElements[i];
             if (el.getAttribute('data-id') === scene.data.id) {

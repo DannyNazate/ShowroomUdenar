@@ -493,6 +493,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 .mobile #sceneList .scene .text {
     line-height: 40px;
+    text
 }
 
 .no-touch #sceneList .scene:hover {
@@ -1114,7 +1115,7 @@ body {
 
 /*ESTILOS PARA EL MODAL DE BIENVENIDA*/
 
-.modal {
+.mimodal {
     display: none;
     position: fixed;
     top: 0;
@@ -1127,28 +1128,28 @@ body {
   .modal-contenido {
     background-color: gainsboro;
     border-radius: 10px;
-    margin: 6% auto;
+    margin: 7% auto;
     padding: 20px;
-    width: 60rem;
-    height: 30rem;
   }
 
-  .info-modal{
+  .borde{
     border-radius: 10px;
-    max-width: 100%;
   }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+
+  @media (max-width: 1150px){
+    .bajar{
+        padding-top: 8%;
+    }
   }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+
+  @media (max-width: 992px){
+    .bajar{
+        padding-top: 15%;
+    }
   }
-  
+
+  @media (max-width: 768px){
+    .bajar{
+        padding-top: 20%;
+    }
+  }
