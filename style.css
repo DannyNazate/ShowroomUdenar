@@ -43,11 +43,26 @@
 }
 
 
-/*COLOCAR ICONOS A STANDS*/
+/*Color de NAV*/
 
-#img3 {
-    background-image: url(img/iconomisionyvision.png);
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link {
+    background: #28a745 !important;
 }
+
+#v-pills-profile-tab.nav-link,
+#v-pills-home-tab.nav-link,
+#v-pills-messages-tab.nav-link,
+#v-pills-settings-tab.nav-link {
+    color: #f0f0f0;
+}
+
+.btn-success {
+    background: #28a745 !important;
+}
+
+
+/*COLOCAR ICONOS A STANDS*/
 
 #imgfaceadministracionempresas {
     background-image: url(img/logos/administracion.jpeg);
@@ -210,7 +225,6 @@ a:visited {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /*filter: brightness(1);*/
 }
 
 #titleBar {
@@ -385,6 +399,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
     padding: 5px;
     background-color: rgb(103, 115, 131);
     background-color: rgba(103, 115, 131, 0.8);
+    visibility: hidden;
 }
 
 .mobile #sceneListToggle {
@@ -1113,6 +1128,7 @@ body {
     left: 660px;
 }
 
+
 /*ESTILOS PARA EL MODAL DE BIENVENIDA*/
 
 .mimodal {
@@ -1122,14 +1138,15 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
-  }
-  
-  .modal-contenido {
-    background-color: gainsboro;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contenido {
+    background-color: rgba(29, 31, 29, 0.35);
     border-radius: 10px;
     margin: 7% auto;
     padding: 20px;
+<<<<<<< HEAD
   }
 
   .borde{
@@ -1153,3 +1170,27 @@ body {
         padding-top: 20%;
     }
   }
+=======
+    width: 60rem;
+    height: 30rem;
+}
+
+.info-modal {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+>>>>>>> 7b26b9554e52cc447fdd6d6189c07299974142f5
