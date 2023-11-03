@@ -1167,3 +1167,34 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+ 
+@media screen and (max-width: 768px) {
+    .modal-contenido{
+     width: 100%;
+     align-items: center;
+     
+    }
+    .d-flex.align-items-start {
+        flex-direction: column; /* Cambia a flex-direction: column para colocar los elementos uno debajo del otro */
+       
+    }
+
+    .nav-pills {
+        display: flex;
+        flex-direction: column; /* Muestra los botones uno debajo del otro */
+        
+    }
+
+    .nav-link {
+        margin: 5px 0; /* Espaciado entre los botones */
+        margin-left: 50%;
+        margin-right: 50%;
+        
+        
+   }
+    .v-pills-tab{
+        align-items: center;
+        
+    }
+}
+
